@@ -12,6 +12,7 @@ struct HomeView: View {
         NavigationView {
             List {
                 NavigationLink("Login", destination: LoginOptionsView())
+                NavigationLink("Group", destination: GroupView())
             }
             .navigationBarTitle("Home", displayMode: .automatic)
             .background(NavigationConfigurator(backgroundColor: Constant.Color.blue, titleColor: .white))
