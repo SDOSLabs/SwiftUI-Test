@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		290EA66924D82B5B00FA437D /* SwiftUI_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EA66824D82B5B00FA437D /* SwiftUI_TestApp.swift */; };
-		290EA66B24D82B5B00FA437D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EA66A24D82B5B00FA437D /* ContentView.swift */; };
+		290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EA66A24D82B5B00FA437D /* HomeView.swift */; };
 		290EA66D24D82B5D00FA437D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290EA66C24D82B5D00FA437D /* Assets.xcassets */; };
 		290EA67024D82B5D00FA437D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290EA66F24D82B5D00FA437D /* Preview Assets.xcassets */; };
+		29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758724D93C5E00FDDCDB /* NavigationConfigurator.swift */; };
+		29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758A24D9591500FDDCDB /* LoginOptionsView.swift */; };
+		29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */; };
+		29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758F24D9599600FDDCDB /* LoginEmbedView.swift */; };
+		29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759124D959A500FDDCDB /* LoginComponentView.swift */; };
+		29B1759524D95C1D00FDDCDB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759424D95C1D00FDDCDB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		290EA66524D82B5B00FA437D /* SwiftUI-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		290EA66824D82B5B00FA437D /* SwiftUI_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TestApp.swift; sourceTree = "<group>"; };
-		290EA66A24D82B5B00FA437D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		290EA66A24D82B5B00FA437D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		290EA66C24D82B5D00FA437D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290EA66F24D82B5D00FA437D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		290EA67124D82B5D00FA437D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B1758724D93C5E00FDDCDB /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
+		29B1758A24D9591500FDDCDB /* LoginOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsView.swift; sourceTree = "<group>"; };
+		29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFullScreenView.swift; sourceTree = "<group>"; };
+		29B1758F24D9599600FDDCDB /* LoginEmbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmbedView.swift; sourceTree = "<group>"; };
+		29B1759124D959A500FDDCDB /* LoginComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComponentView.swift; sourceTree = "<group>"; };
+		29B1759424D95C1D00FDDCDB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,10 @@
 		290EA66724D82B5B00FA437D /* SwiftUI-Test */ = {
 			isa = PBXGroup;
 			children = (
+				29B1759324D95B1E00FDDCDB /* common */,
+				29B1758924D9579600FDDCDB /* ui */,
+				29B1758624D93C4C00FDDCDB /* ViewControllerRepresentable */,
 				290EA66824D82B5B00FA437D /* SwiftUI_TestApp.swift */,
-				290EA66A24D82B5B00FA437D /* ContentView.swift */,
 				290EA66C24D82B5D00FA437D /* Assets.xcassets */,
 				290EA67124D82B5D00FA437D /* Info.plist */,
 				290EA66E24D82B5D00FA437D /* Preview Content */,
@@ -67,6 +81,42 @@
 				290EA66F24D82B5D00FA437D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29B1758624D93C4C00FDDCDB /* ViewControllerRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				29B1758724D93C5E00FDDCDB /* NavigationConfigurator.swift */,
+			);
+			path = ViewControllerRepresentable;
+			sourceTree = "<group>";
+		};
+		29B1758924D9579600FDDCDB /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				29B1758C24D9597400FDDCDB /* Login */,
+				290EA66A24D82B5B00FA437D /* HomeView.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		29B1758C24D9597400FDDCDB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				29B1758A24D9591500FDDCDB /* LoginOptionsView.swift */,
+				29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */,
+				29B1758F24D9599600FDDCDB /* LoginEmbedView.swift */,
+				29B1759124D959A500FDDCDB /* LoginComponentView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		29B1759324D95B1E00FDDCDB /* common */ = {
+			isa = PBXGroup;
+			children = (
+				29B1759424D95C1D00FDDCDB /* Constants.swift */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				290EA66B24D82B5B00FA437D /* ContentView.swift in Sources */,
+				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
+				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
+				29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */,
+				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
+				29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */,
+				29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */,
 				290EA66924D82B5B00FA437D /* SwiftUI_TestApp.swift in Sources */,
+				29B1759524D95C1D00FDDCDB /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
