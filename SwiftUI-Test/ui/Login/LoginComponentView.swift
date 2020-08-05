@@ -19,10 +19,12 @@ struct LoginComponentView: View {
                 .textFieldLogin()
             Button("Login") {
                 print("Do Login")
-            }.padding(.top, 30)
-            .foregroundColor(Color.white)
+            }
+            .padding(.top, 30)
+            .foregroundColor((user.isEmpty || password.isEmpty) ? Color.black.opacity(0.6) : Color.white)
+            .disabled(user.isEmpty || password.isEmpty)
             
-        }.padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/, /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+        }.padding(.all, 10)
     }
 }
 
@@ -39,6 +41,6 @@ extension View {
 struct LoginComponentView_Previews: PreviewProvider {
     static var previews: some View {
         LoginComponentView()
-            .background(Color.init(Constant.Color.blue))
+            .background(Color.init(UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1)))
     }
 }
