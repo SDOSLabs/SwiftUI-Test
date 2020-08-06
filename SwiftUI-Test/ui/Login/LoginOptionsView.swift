@@ -18,6 +18,9 @@ struct LoginOptionsView: View {
 
 struct LoginOptionsView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginOptionsView()
+        NavigationView {
+            LoginOptionsView()
+                .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
+        }
     }
 }

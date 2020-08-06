@@ -15,12 +15,17 @@ struct LoginFullScreenView: View {
             Spacer()
             LoginComponentView()
             Spacer()
-        }.background(Color.init(Constant.Color.blue))
+        }
+        .background(Color.init(UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1)))
+        .navigationBarTitle("", displayMode: .inline)
     }
 }
 
 struct LoginFullScreenView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginFullScreenView()
+        NavigationView {
+            LoginFullScreenView()
+                .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
+        }
     }
 }

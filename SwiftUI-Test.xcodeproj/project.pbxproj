@@ -16,7 +16,10 @@
 		29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */; };
 		29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758F24D9599600FDDCDB /* LoginEmbedView.swift */; };
 		29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759124D959A500FDDCDB /* LoginComponentView.swift */; };
-		29B1759524D95C1D00FDDCDB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759424D95C1D00FDDCDB /* Constants.swift */; };
+		29B1759824D97FCE00FDDCDB /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759724D97FCE00FDDCDB /* GroupView.swift */; };
+		29B1759A24D9876700FDDCDB /* GroupEncapsulateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */; };
+		29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */; };
+		29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +34,10 @@
 		29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFullScreenView.swift; sourceTree = "<group>"; };
 		29B1758F24D9599600FDDCDB /* LoginEmbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmbedView.swift; sourceTree = "<group>"; };
 		29B1759124D959A500FDDCDB /* LoginComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComponentView.swift; sourceTree = "<group>"; };
-		29B1759424D95C1D00FDDCDB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		29B1759724D97FCE00FDDCDB /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEncapsulateView.swift; sourceTree = "<group>"; };
+		29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSkipLimitView.swift; sourceTree = "<group>"; };
+		29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupApplyStyleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +70,6 @@
 		290EA66724D82B5B00FA437D /* SwiftUI-Test */ = {
 			isa = PBXGroup;
 			children = (
-				29B1759324D95B1E00FDDCDB /* common */,
 				29B1758924D9579600FDDCDB /* ui */,
 				29B1758624D93C4C00FDDCDB /* ViewControllerRepresentable */,
 				290EA66824D82B5B00FA437D /* SwiftUI_TestApp.swift */,
@@ -94,6 +99,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				29B1759624D97FC000FDDCDB /* Group */,
 				29B1758C24D9597400FDDCDB /* Login */,
 				290EA66A24D82B5B00FA437D /* HomeView.swift */,
 			);
@@ -111,12 +117,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		29B1759324D95B1E00FDDCDB /* common */ = {
+		29B1759624D97FC000FDDCDB /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				29B1759424D95C1D00FDDCDB /* Constants.swift */,
+				29B1759724D97FCE00FDDCDB /* GroupView.swift */,
+				29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */,
+				29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */,
+				29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */,
 			);
-			path = common;
+			path = Group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,12 +199,15 @@
 			files = (
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
+				29B1759824D97FCE00FDDCDB /* GroupView.swift in Sources */,
+				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
+				29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */,
 				29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */,
 				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
 				29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */,
 				29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */,
 				290EA66924D82B5B00FA437D /* SwiftUI_TestApp.swift in Sources */,
-				29B1759524D95C1D00FDDCDB /* Constants.swift in Sources */,
+				29B1759A24D9876700FDDCDB /* GroupEncapsulateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
