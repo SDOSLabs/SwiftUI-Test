@@ -11,11 +11,11 @@ struct NavigationConfigurator: UIViewControllerRepresentable {
     let backgroundColor: UIColor
     let titleColor: UIColor
 
-    func makeUIViewController(context: UIViewControllerRepresentableContext<NavigationConfigurator>) -> UIViewController {
+    func makeUIViewController(context: UIViewControllerRepresentableContext<Self>) -> UIViewController {
         UIViewController()
     }
     
-    func updateUIViewController(_ uiViewController: UIViewController, context: UIViewControllerRepresentableContext<NavigationConfigurator>) {
+    func updateUIViewController(_ uiViewController: UIViewController, context: UIViewControllerRepresentableContext<Self>) {
         if let nc = uiViewController.navigationController {
             nc.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
             let navBarAppearance = UINavigationBarAppearance()
