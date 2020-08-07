@@ -23,7 +23,7 @@
 		29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */; };
 		29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758F24D9599600FDDCDB /* LoginEmbedView.swift */; };
 		29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759124D959A500FDDCDB /* LoginComponentView.swift */; };
-		29B1759824D97FCE00FDDCDB /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759724D97FCE00FDDCDB /* GroupView.swift */; };
+		29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759724D97FCE00FDDCDB /* GroupOptionsView.swift */; };
 		29B1759A24D9876700FDDCDB /* GroupEncapsulateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */; };
 		29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */; };
 		29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */; };
@@ -48,7 +48,7 @@
 		29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFullScreenView.swift; sourceTree = "<group>"; };
 		29B1758F24D9599600FDDCDB /* LoginEmbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginEmbedView.swift; sourceTree = "<group>"; };
 		29B1759124D959A500FDDCDB /* LoginComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComponentView.swift; sourceTree = "<group>"; };
-		29B1759724D97FCE00FDDCDB /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		29B1759724D97FCE00FDDCDB /* GroupOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOptionsView.swift; sourceTree = "<group>"; };
 		29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEncapsulateView.swift; sourceTree = "<group>"; };
 		29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSkipLimitView.swift; sourceTree = "<group>"; };
 		29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupApplyStyleView.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		29B1759624D97FC000FDDCDB /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				29B1759724D97FCE00FDDCDB /* GroupView.swift */,
+				29B1759724D97FCE00FDDCDB /* GroupOptionsView.swift */,
 				29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */,
 				29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */,
 				29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */,
@@ -237,7 +237,7 @@
 				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
-				29B1759824D97FCE00FDDCDB /* GroupView.swift in Sources */,
+				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
 				2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */,
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
 				2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */,

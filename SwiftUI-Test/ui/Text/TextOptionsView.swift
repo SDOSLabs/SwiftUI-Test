@@ -13,7 +13,8 @@ struct TextOptionsView: View {
             NavigationLink("Simple", destination: TextSimpleView())
             NavigationLink("Style", destination: TextStyleView())
         }
-        .navigationBarTitle("Text Options", displayMode: .inline)
+        .navigationBarTitle("Text Options", displayMode: .automatic)
+        .navigationColor(background: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), title: .white)
     }
 }
 
@@ -21,7 +22,6 @@ struct TextOptionsView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             TextOptionsView()
-                .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
         }
     }
 }
