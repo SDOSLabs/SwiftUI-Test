@@ -14,6 +14,7 @@ struct HomeView: View {
                 NavigationLink("Login", destination: LoginOptionsView())
                 NavigationLink("Group", destination: GroupView())
                 NavigationLink("Text", destination: TextOptionsView())
+                NavigationLink("Button", destination: ButtonOptionsView())
             }
             .navigationBarTitle("Home", displayMode: .automatic)
             .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))

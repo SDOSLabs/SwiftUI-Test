@@ -15,6 +15,9 @@
 		2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805724DBE3FC00204A46 /* TextSimpleView.swift */; };
 		2965805A24DBE71500204A46 /* TextStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805924DBE71500204A46 /* TextStyleView.swift */; };
 		2965805C24DC01EC00204A46 /* TextHtml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805B24DC01EC00204A46 /* TextHtml.swift */; };
+		2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805E24DC171D00204A46 /* ButtonOptionsView.swift */; };
+		2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806024DC177700204A46 /* ButtonSimpleView.swift */; };
+		2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806224DC1A6200204A46 /* ButtonStyleView.swift */; };
 		29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758724D93C5E00FDDCDB /* NavigationConfigurator.swift */; };
 		29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758A24D9591500FDDCDB /* LoginOptionsView.swift */; };
 		29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */; };
@@ -37,6 +40,9 @@
 		2965805724DBE3FC00204A46 /* TextSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSimpleView.swift; sourceTree = "<group>"; };
 		2965805924DBE71500204A46 /* TextStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleView.swift; sourceTree = "<group>"; };
 		2965805B24DC01EC00204A46 /* TextHtml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHtml.swift; sourceTree = "<group>"; };
+		2965805E24DC171D00204A46 /* ButtonOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOptionsView.swift; sourceTree = "<group>"; };
+		2965806024DC177700204A46 /* ButtonSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSimpleView.swift; sourceTree = "<group>"; };
+		2965806224DC1A6200204A46 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
 		29B1758724D93C5E00FDDCDB /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
 		29B1758A24D9591500FDDCDB /* LoginOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsView.swift; sourceTree = "<group>"; };
 		29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFullScreenView.swift; sourceTree = "<group>"; };
@@ -106,6 +112,16 @@
 			path = Text;
 			sourceTree = "<group>";
 		};
+		2965805D24DC16CF00204A46 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				2965805E24DC171D00204A46 /* ButtonOptionsView.swift */,
+				2965806024DC177700204A46 /* ButtonSimpleView.swift */,
+				2965806224DC1A6200204A46 /* ButtonStyleView.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		29B1758624D93C4C00FDDCDB /* ViewControllerRepresentable */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +134,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				2965805D24DC16CF00204A46 /* Button */,
 				2965805424DBE38600204A46 /* Text */,
 				29B1759624D97FC000FDDCDB /* Group */,
 				29B1758C24D9597400FDDCDB /* Login */,
@@ -217,16 +234,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
 				29B1759824D97FCE00FDDCDB /* GroupView.swift in Sources */,
 				2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */,
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
+				2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */,
 				29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */,
 				29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */,
 				2965805C24DC01EC00204A46 /* TextHtml.swift in Sources */,
 				2965805A24DBE71500204A46 /* TextStyleView.swift in Sources */,
 				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
+				2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */,
 				29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */,
 				2965805624DBE3A200204A46 /* TextOptionsView.swift in Sources */,
 				29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */,
