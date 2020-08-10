@@ -7,6 +7,18 @@
 
 import SwiftUI
 
+struct SelectableButtonStyle<T: View>: ButtonStyle {
+    private let render: (Self.Configuration) -> T
+    
+    public init(_ render: @escaping (Self.Configuration) -> T) {
+        self.render = render
+    }
+    
+    func makeBody(configuration: Self.Configuration) -> some View {
+        return self.render(configuration)
+    }
+}
+
 struct ButtonStyleView: View {
     @State var alertPresent = false
     @State private var textAlert = ""
@@ -15,27 +27,86 @@ struct ButtonStyleView: View {
         ScrollView {
             VStack(spacing: 15) {
                 Group {
-                    Button("Borderless Button") {
-                        textAlert = "Borderless Button"
+                    Button("Button Borderless") {
+                        textAlert = "Button Borderless"
                         alertPresent.toggle()
-                    }.buttonStyle(BorderlessButtonStyle())
-                    Button("Default Button") {
-                        textAlert = "Default Button"
+                    }
+                    .buttonStyle(BorderlessButtonStyle())
+                    Button("Button Default") {
+                        textAlert = "Button Default"
                         alertPresent.toggle()
-                    }.buttonStyle(DefaultButtonStyle())
-                    Button("Plain Button") {
-                        textAlert = "Plain Button"
+                    }
+                    .buttonStyle(DefaultButtonStyle())
+                    Button("Button Plain") {
+                        textAlert = "Button Plain"
                         alertPresent.toggle()
-                    }.buttonStyle(PlainButtonStyle())
+                    }
+                    .buttonStyle(PlainButtonStyle())
                     Divider()
                 }
                 Group {
-                    Button("Hover Effect  Button (try on iPad)") {
-                        textAlert = "Hover Effect  Button (try on iPad)"
+                    Button("Button Hover Effect (try on iPad with pointer)") {
+                        textAlert = "Hover Effect  Button (try on iPad with pointer)"
                         alertPresent.toggle()
-                    }.hoverEffect(.lift)
-                    
+                    }
+                    .hoverEffect(.lift)
+                    Divider()
                 }
+                Group {
+                    Button("Button with background") {
+                        textAlert = "Button with background"
+                        alertPresent.toggle()
+                    }
+                    .background(Color.yellow)
+                    Button("Button with background (frame set)") {
+                        textAlert = "Button with background (frame set)"
+                        alertPresent.toggle()
+                    }
+                    .frame(maxWidth: .infinity)
+                    .background(Color.yellow)
+                    Divider()
+                }
+                Group {
+                    Button("Foreground Color") {
+                        textAlert = "Foreground Color"
+                        alertPresent.toggle()
+                    }.foregroundColor(.purple)
+                    Divider()
+                }
+                Group {
+                    Button(action: {
+                        
+                    }, label: {
+                        VStack {
+                            Text("Hello")
+                            Divider()
+                                .background(Color.red)
+                                .frame(width: 100, height: 1)
+                            Text("Button 2!")
+                        }
+                    }).buttonStyle(SelectableButtonStyle({
+                        return $0.label
+                            .background(Color.yellow)
+                            .clipShape(RoundedRectangle(cornerRadius: $0.isPressed ? 16.0 : 0.0))
+                            .overlay(RoundedRectangle(cornerRadius: $0.isPressed ? 16.0 : 0.0).stroke(lineWidth: $0.isPressed ? 2.0 : 0.0).foregroundColor(Color.pink))
+                                                        .animation(.linear)
+                    }))
+                    Button("Customize on pressed") {
+                        textAlert = "Customize on pressed"
+                        alertPresent.toggle()
+                    }
+                    .padding()
+                    .background(Color.blue)
+                    .buttonStyle(SelectableButtonStyle({
+                        return $0.label
+                            .background(Color.yellow)
+//                            .clipShape(RoundedRectangle(cornerRadius: $0.isPressed ? 16.0 : 0.0))
+                            .overlay(RoundedRectangle(cornerRadius: $0.isPressed ? 16.0 : 0.0).stroke(lineWidth: $0.isPressed ? 2.0 : 0.0).foregroundColor(Color.pink))
+                                                        .animation(.linear)
+                    }))
+                    Divider()
+                }
+                
             }.padding()
         }
         .navigationBarTitle("Button Simple", displayMode: .inline)
