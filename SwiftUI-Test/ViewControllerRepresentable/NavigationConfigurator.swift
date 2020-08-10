@@ -81,6 +81,7 @@ struct NavigationConfigurator: UIViewControllerRepresentable {
             items.forEach{ nc in
                 let last = nc.navigationBar.barTintColor
                 nc.navigationBar.barTintColor = .red
+                nc.navigationBar.barTintColor = .white
                 nc.navigationBar.barTintColor = last
                 
                 let navBarAppearance = UINavigationBarAppearance()
