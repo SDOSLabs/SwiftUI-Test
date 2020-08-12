@@ -10,20 +10,23 @@ import SwiftUI
 struct TextStyleView: View {
     var body: some View {
         ScrollView {
-            VStack {
+            VStack(spacing: 15) {
                 Group {
                     Group {
+                        HeaderSectionView("lineLimit")
                         Text("This is a long text with line limit set to 2. I need more text for ensure is a real multiline text, so I repeat all to say before. `This is a long text with line limit set to 1`. Now, for sure it's a multiline text")
                             .lineLimit(2)
                         Divider()
                     }
                     Group {
+                        HeaderSectionView("truncationMode")
                         Text("This is a long text with line limit set to 1 and tuncationMode set to middle. I need more text for ensure is a real multiline text, so I repeat all to say before. `This is a long text with line limit set to 1 and tuncationMode set to middle`. Now, for sure it's a multiline text")
                             .lineLimit(1)
                             .truncationMode(.middle)
                         Divider()
                     }
                     Group {
+                        HeaderSectionView("background")
                         Text("Text with background")
                             .background(Color.yellow)
                         Text("Text with background (frame set)")
@@ -32,11 +35,13 @@ struct TextStyleView: View {
                         Divider()
                     }
                     Group {
+                        HeaderSectionView("foregroundColor")
                         Text("Text with foreground")
                             .foregroundColor(Color.red)
                         Divider()
                     }
                     Group {
+                        HeaderSectionView("font")
                         Text("Text with font")
                             .font(.headline)
                         Text("Text with custom font")
@@ -44,17 +49,20 @@ struct TextStyleView: View {
                         Divider()
                     }
                     Group {
+                        HeaderSectionView("multilineTextAlignment")
                         Text("This is a long text with multiline alignment and set to trailing to view the effect")
                             .multilineTextAlignment(.trailing)
                         Divider()
                     }
                     Group {
+                        HeaderSectionView("lineSpacing")
                         Text("This is a long text with line spacing and large title for show de line spacing modification")
                             .font(.title)
                             .lineSpacing(30)
                         Divider()
                     }
                     Group {
+                        HeaderSectionView("kerning and tracking")
                         Text("kerning: ffi")
                             .font(.custom("AmericanTypewriter", size: 20))
                             .kerning(10)
@@ -66,6 +74,7 @@ struct TextStyleView: View {
                 }
                 Group {
                     Group {
+                        HeaderSectionView("strikethrough")
                         Text("Text strikethrough")
                             .strikethrough()
                         Text("Text strikethrough red")
@@ -73,6 +82,7 @@ struct TextStyleView: View {
                         Divider()
                     }
                     Group {
+                        HeaderSectionView("underline")
                         Text("Text underline")
                             .underline()
                         Text("Text underline red")
@@ -81,12 +91,14 @@ struct TextStyleView: View {
                     }
                     
                     Group {
+                        HeaderSectionView("baselineOffset")
                         Text("Text baseline")
                             .baselineOffset(30)
                             .background(Color.yellow)
                         Divider()
                     }
                     Group {
+                        HeaderSectionView("HTML")
                         TextHtml("<head><style type='text/css'>p { font: 20pt 'AmericanTypewriter'; color: #1a004b; }</style></head><p><strong>HTML text</strong></br> This work fine.</p>")
                         Divider()
                     }

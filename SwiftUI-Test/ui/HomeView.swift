@@ -12,6 +12,7 @@ struct HomeView: View {
         NavigationView {
             List {
                 NavigationLink("Login", destination: LoginOptionsView())
+                NavigationLink("View", destination: ViewStyleView())
                 NavigationLink("Group", destination: GroupOptionsView())
                 NavigationLink("Text", destination: TextOptionsView())
                 NavigationLink("Button", destination: ButtonOptionsView())
