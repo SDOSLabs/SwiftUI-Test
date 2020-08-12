@@ -11,6 +11,8 @@
 		290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EA66A24D82B5B00FA437D /* HomeView.swift */; };
 		290EA66D24D82B5D00FA437D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290EA66C24D82B5D00FA437D /* Assets.xcassets */; };
 		290EA67024D82B5D00FA437D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290EA66F24D82B5D00FA437D /* Preview Assets.xcassets */; };
+		2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */; };
+		2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */; };
 		2965805624DBE3A200204A46 /* TextOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805524DBE3A200204A46 /* TextOptionsView.swift */; };
 		2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805724DBE3FC00204A46 /* TextSimpleView.swift */; };
 		2965805A24DBE71500204A46 /* TextStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805924DBE71500204A46 /* TextStyleView.swift */; };
@@ -36,6 +38,8 @@
 		290EA66C24D82B5D00FA437D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290EA66F24D82B5D00FA437D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		290EA67124D82B5D00FA437D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
+		2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButtonStyle.swift; sourceTree = "<group>"; };
 		2965805524DBE3A200204A46 /* TextOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOptionsView.swift; sourceTree = "<group>"; };
 		2965805724DBE3FC00204A46 /* TextSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSimpleView.swift; sourceTree = "<group>"; };
 		2965805924DBE71500204A46 /* TextStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleView.swift; sourceTree = "<group>"; };
@@ -102,6 +106,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2941C82C24E2BB0B0072DA8C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */,
+				2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		2965805424DBE38600204A46 /* Text */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +147,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				2941C82C24E2BB0B0072DA8C /* Common */,
 				2965805D24DC16CF00204A46 /* Button */,
 				2965805424DBE38600204A46 /* Text */,
 				29B1759624D97FC000FDDCDB /* Group */,
@@ -237,6 +251,7 @@
 				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
+				2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */,
 				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
 				2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */,
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
@@ -245,6 +260,7 @@
 				29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */,
 				2965805C24DC01EC00204A46 /* TextHtml.swift in Sources */,
 				2965805A24DBE71500204A46 /* TextStyleView.swift in Sources */,
+				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,
 				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
 				2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */,
 				29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */,

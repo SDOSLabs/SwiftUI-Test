@@ -10,7 +10,7 @@ import SwiftUI
 struct ButtonSimpleView: View {
     var body: some View {
         VStack(spacing: 30) {
-            Button("Hello, Button 1!") {
+            Button("Hello, Button!") {
                 //Button pressed, do something
             }
             
@@ -22,7 +22,7 @@ struct ButtonSimpleView: View {
                     Divider()
                         .background(Color.red)
                         .frame(width: 100, height: 1)
-                    Text("Button 2!")
+                    Text("Button!")
                 }
             }
         }

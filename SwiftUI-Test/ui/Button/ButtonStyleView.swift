@@ -7,18 +7,6 @@
 
 import SwiftUI
 
-struct SelectableButtonStyle<T: View>: ButtonStyle {
-    private let render: (Self.Configuration) -> T
-    
-    public init(_ render: @escaping (Self.Configuration) -> T) {
-        self.render = render
-    }
-    
-    func makeBody(configuration: Self.Configuration) -> some View {
-        return self.render(configuration)
-    }
-}
-
 struct ButtonStyleView: View {
     @State var alertPresent = false
     @State private var textAlert = ""
@@ -27,6 +15,7 @@ struct ButtonStyleView: View {
         ScrollView {
             VStack(spacing: 15) {
                 Group {
+                    HeaderSectionView("buttonStyle")
                     Button("Button Borderless") {
                         textAlert = "Button Borderless"
                         alertPresent.toggle()
@@ -45,6 +34,7 @@ struct ButtonStyleView: View {
                     Divider()
                 }
                 Group {
+                    HeaderSectionView("hoverEffect")
                     Button("Button Hover Effect (try on iPad with pointer)") {
                         textAlert = "Hover Effect  Button (try on iPad with pointer)"
                         alertPresent.toggle()
@@ -53,6 +43,7 @@ struct ButtonStyleView: View {
                     Divider()
                 }
                 Group {
+                    HeaderSectionView("background")
                     Button("Button with background") {
                         textAlert = "Button with background"
                         alertPresent.toggle()
@@ -67,22 +58,26 @@ struct ButtonStyleView: View {
                     Divider()
                 }
                 Group {
+                    HeaderSectionView("foregroundColor")
                     Button("Foreground Color") {
                         textAlert = "Foreground Color"
                         alertPresent.toggle()
-                    }.foregroundColor(.purple)
+                    }
+                    .foregroundColor(.purple)
                     Divider()
                 }
                 Group {
+                    HeaderSectionView("SelectableButtonStyle")
                     Button(action: {
-                        
+                        textAlert = "Hello\nButton!"
+                        alertPresent.toggle()
                     }, label: {
                         VStack {
                             Text("Hello")
                             Divider()
                                 .background(Color.red)
                                 .frame(width: 100, height: 1)
-                            Text("Button 2!")
+                            Text("Button!")
                         }
                     }).buttonStyle(SelectableButtonStyle({
                         return $0.label
@@ -100,7 +95,7 @@ struct ButtonStyleView: View {
                     .buttonStyle(SelectableButtonStyle({
                         return $0.label
                             .background(Color.yellow)
-//                            .clipShape(RoundedRectangle(cornerRadius: $0.isPressed ? 16.0 : 0.0))
+                            .clipShape(RoundedRectangle(cornerRadius: $0.isPressed ? 16.0 : 0.0))
                             .overlay(RoundedRectangle(cornerRadius: $0.isPressed ? 16.0 : 0.0).stroke(lineWidth: $0.isPressed ? 2.0 : 0.0).foregroundColor(Color.pink))
                                                         .animation(.linear)
                     }))
@@ -110,7 +105,7 @@ struct ButtonStyleView: View {
             }.padding()
         }
         .navigationBarTitle("Button Simple", displayMode: .inline)
-        .background(NavigationConfigurator(backgroundColor: .green, titleColor: .blue))
+        .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
         .alert(isPresented: $alertPresent) {
             Alert(title: Text("Pressed " + textAlert))
         }
