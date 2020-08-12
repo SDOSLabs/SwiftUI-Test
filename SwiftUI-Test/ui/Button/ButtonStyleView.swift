@@ -104,7 +104,7 @@ struct ButtonStyleView: View {
                 
             }.padding()
         }
-        .navigationBarTitle("Button Simple", displayMode: .inline)
+        .navigationBarTitle("Button Style", displayMode: .inline)
         .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
         .alert(isPresented: $alertPresent) {
             Alert(title: Text("Pressed " + textAlert))

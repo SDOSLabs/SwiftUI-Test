@@ -20,7 +20,10 @@
 		2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805E24DC171D00204A46 /* ButtonOptionsView.swift */; };
 		2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806024DC177700204A46 /* ButtonSimpleView.swift */; };
 		2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806224DC1A6200204A46 /* ButtonStyleView.swift */; };
-		298024E024E3C35D0000CC6B /* ViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024DF24E3C35D0000CC6B /* ViewStyleView.swift */; };
+		298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E224E3D2890000CC6B /* ViewStyleView.swift */; };
+		298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */; };
+		298024E824E3D2D10000CC6B /* TextFieldSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */; };
+		298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E924E3D2DC0000CC6B /* TextFieldStyleView.swift */; };
 		29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758724D93C5E00FDDCDB /* NavigationConfigurator.swift */; };
 		29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758A24D9591500FDDCDB /* LoginOptionsView.swift */; };
 		29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */; };
@@ -30,6 +33,7 @@
 		29B1759A24D9876700FDDCDB /* GroupEncapsulateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */; };
 		29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */; };
 		29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */; };
+		29CDE75924E40E0D00363BA2 /* CustomPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +52,10 @@
 		2965805E24DC171D00204A46 /* ButtonOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOptionsView.swift; sourceTree = "<group>"; };
 		2965806024DC177700204A46 /* ButtonSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSimpleView.swift; sourceTree = "<group>"; };
 		2965806224DC1A6200204A46 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
-		298024DF24E3C35D0000CC6B /* ViewStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStyleView.swift; sourceTree = "<group>"; };
+		298024E224E3D2890000CC6B /* ViewStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyleView.swift; sourceTree = "<group>"; };
+		298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOptionsView.swift; sourceTree = "<group>"; };
+		298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSimpleView.swift; sourceTree = "<group>"; };
+		298024E924E3D2DC0000CC6B /* TextFieldStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyleView.swift; sourceTree = "<group>"; };
 		29B1758724D93C5E00FDDCDB /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
 		29B1758A24D9591500FDDCDB /* LoginOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsView.swift; sourceTree = "<group>"; };
 		29B1758D24D9598800FDDCDB /* LoginFullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFullScreenView.swift; sourceTree = "<group>"; };
@@ -58,6 +65,7 @@
 		29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEncapsulateView.swift; sourceTree = "<group>"; };
 		29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSkipLimitView.swift; sourceTree = "<group>"; };
 		29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupApplyStyleView.swift; sourceTree = "<group>"; };
+		29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 			children = (
 				2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */,
 				2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */,
+				29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -137,12 +146,22 @@
 			path = Button;
 			sourceTree = "<group>";
 		};
-		298024DE24E3C3430000CC6B /* View */ = {
+		298024E124E3D2890000CC6B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				298024DF24E3C35D0000CC6B /* ViewStyleView.swift */,
+				298024E224E3D2890000CC6B /* ViewStyleView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		298024E424E3D2900000CC6B /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */,
+				298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */,
+				298024E924E3D2DC0000CC6B /* TextFieldStyleView.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 		29B1758624D93C4C00FDDCDB /* ViewControllerRepresentable */ = {
@@ -157,7 +176,8 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				298024DE24E3C3430000CC6B /* View */,
+				298024E424E3D2900000CC6B /* TextField */,
+				298024E124E3D2890000CC6B /* View */,
 				2941C82C24E2BB0B0072DA8C /* Common */,
 				2965805D24DC16CF00204A46 /* Button */,
 				2965805424DBE38600204A46 /* Text */,
@@ -259,22 +279,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298024E024E3C35D0000CC6B /* ViewStyleView.swift in Sources */,
 				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
 				2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */,
 				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
 				2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */,
+				298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */,
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
+				298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */,
 				2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */,
 				29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */,
+				298024E824E3D2D10000CC6B /* TextFieldSimpleView.swift in Sources */,
 				29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */,
 				2965805C24DC01EC00204A46 /* TextHtml.swift in Sources */,
 				2965805A24DBE71500204A46 /* TextStyleView.swift in Sources */,
+				298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */,
 				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,
 				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
 				2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */,
+				29CDE75924E40E0D00363BA2 /* CustomPlaceholder.swift in Sources */,
 				29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */,
 				2965805624DBE3A200204A46 /* TextOptionsView.swift in Sources */,
 				29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */,
