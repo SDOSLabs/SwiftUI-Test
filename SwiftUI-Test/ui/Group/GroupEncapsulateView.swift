@@ -25,7 +25,7 @@ struct GroupEncapsulateView: View {
                 Text("Text 6")
             }
         }
-        .navigationBarTitle("Encapsulate")
+        .navigationBarTitle("Encapsulate", displayMode: .inline)
     }
 }
 

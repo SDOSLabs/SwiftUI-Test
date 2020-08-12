@@ -31,7 +31,7 @@ struct GroupApplyStyleView: View {
                 Text("Text 6")
             }
         }
-        .navigationBarTitle("Apply Style")
+        .navigationBarTitle("Apply Style", displayMode: .inline)
         .font(.title)
         .padding(.all, 20)
         .foregroundColor(.red)

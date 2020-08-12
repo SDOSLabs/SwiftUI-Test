@@ -28,7 +28,7 @@ struct GroupSkipLimitView: View {
                 
             }
         }
-        .navigationBarTitle("Skip limit")
+        .navigationBarTitle("Skip limit", displayMode: .inline)
     }
 }
 

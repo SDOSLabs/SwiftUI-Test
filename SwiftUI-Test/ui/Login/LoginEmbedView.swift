@@ -13,8 +13,8 @@ struct LoginEmbedView: View {
             VStack {
                 Image("sdos_office")
                     .resizable()
-                    .frame(height: 200)
                     .scaledToFit()
+                    .frame(height: 200)
                 Text("La firma tecnológica sevillana SDOS instalará su nueva factoría de software en El Puerto")
                     .font(.title2)
                     .padding([.leading, .trailing], 10)
