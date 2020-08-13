@@ -88,12 +88,19 @@ struct TextFieldStyleView: View {
                     Button("Done!") {
                         self.hideKeyboard()
                     }
+                    
+                    TextField("Hide keyboard 2", text: .constant(""))
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
                     Divider()
                 }
             }
         }.navigationBarTitle("TextField Style", displayMode: .inline)
         .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
         .padding()
+        .contentShape(Rectangle())
+        .onTapGesture {
+            self.hideKeyboard()
+        }
     }
 }
 
