@@ -84,6 +84,7 @@ struct TextFieldStyleView: View {
                     HeaderSectionView("hide keyboard")
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     TextField("Hide keyboard", text: .constant(""))
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
                     Button("Done!") {
                         self.hideKeyboard()
                     }
