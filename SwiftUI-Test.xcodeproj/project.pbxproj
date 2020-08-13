@@ -20,6 +20,7 @@
 		2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805E24DC171D00204A46 /* ButtonOptionsView.swift */; };
 		2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806024DC177700204A46 /* ButtonSimpleView.swift */; };
 		2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806224DC1A6200204A46 /* ButtonStyleView.swift */; };
+		29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB224E51A520084DE74 /* KeyboardManager.swift */; };
 		298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E224E3D2890000CC6B /* ViewStyleView.swift */; };
 		298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */; };
 		298024E824E3D2D10000CC6B /* TextFieldSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */; };
@@ -52,6 +53,7 @@
 		2965805E24DC171D00204A46 /* ButtonOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOptionsView.swift; sourceTree = "<group>"; };
 		2965806024DC177700204A46 /* ButtonSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSimpleView.swift; sourceTree = "<group>"; };
 		2965806224DC1A6200204A46 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
+		29749DB224E51A520084DE74 /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
 		298024E224E3D2890000CC6B /* ViewStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyleView.swift; sourceTree = "<group>"; };
 		298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOptionsView.swift; sourceTree = "<group>"; };
 		298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSimpleView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */,
 				2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */,
 				29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */,
+				29749DB224E51A520084DE74 /* KeyboardManager.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */,
 				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
 				2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */,
+				29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */,
 				298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */,
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
 				298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */,

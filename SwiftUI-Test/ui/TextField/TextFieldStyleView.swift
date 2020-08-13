@@ -42,8 +42,17 @@ struct TextFieldStyleView: View {
                 Group {
                     HeaderSectionView("font")
                     TextField("Font placeholder", text: .constant("Text font"))
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
                         .font(.caption2)
+                    Divider()
+                }
+                Group {
+                    HeaderSectionView("keyboardType")
+                    TextField("keyboardType numberPad", text: .constant(""))
+                        .keyboardType(.numberPad)
+                    TextField("keyboardType emailAddress", text: .constant(""))
+                        .keyboardType(.emailAddress)
                     Divider()
                 }
                 Group {
@@ -69,6 +78,15 @@ struct TextFieldStyleView: View {
                         .background(Color.black)
                         .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.red, lineWidth: 3))
                         .clipShape(RoundedRectangle(cornerRadius: 10))
+                    Divider()
+                }
+                Group {
+                    HeaderSectionView("hide keyboard")
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    TextField("Hide keyboard", text: .constant(""))
+                    Button("Done!") {
+                        self.hideKeyboard()
+                    }
                     Divider()
                 }
             }
