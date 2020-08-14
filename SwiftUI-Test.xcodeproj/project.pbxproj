@@ -21,6 +21,9 @@
 		2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806024DC177700204A46 /* ButtonSimpleView.swift */; };
 		2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806224DC1A6200204A46 /* ButtonStyleView.swift */; };
 		29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB224E51A520084DE74 /* KeyboardManager.swift */; };
+		29749DB524E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB424E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift */; };
+		29749DB724E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB624E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift */; };
+		29749DB924E561AF0084DE74 /* TextFieldSimpleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB824E561AF0084DE74 /* TextFieldSimpleScrollView.swift */; };
 		298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E224E3D2890000CC6B /* ViewStyleView.swift */; };
 		298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */; };
 		298024E824E3D2D10000CC6B /* TextFieldSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */; };
@@ -35,6 +38,7 @@
 		29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */; };
 		29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */; };
 		29CDE75924E40E0D00363BA2 /* CustomPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */; };
+		29CF92F424E6869400B8A3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF92F324E6869400B8A3DA /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,9 @@
 		2965806024DC177700204A46 /* ButtonSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSimpleView.swift; sourceTree = "<group>"; };
 		2965806224DC1A6200204A46 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
 		29749DB224E51A520084DE74 /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
+		29749DB424E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMultipleScrollVerticalView.swift; sourceTree = "<group>"; };
+		29749DB624E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMultipleScrollHorizontalView.swift; sourceTree = "<group>"; };
+		29749DB824E561AF0084DE74 /* TextFieldSimpleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSimpleScrollView.swift; sourceTree = "<group>"; };
 		298024E224E3D2890000CC6B /* ViewStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyleView.swift; sourceTree = "<group>"; };
 		298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOptionsView.swift; sourceTree = "<group>"; };
 		298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSimpleView.swift; sourceTree = "<group>"; };
@@ -68,6 +75,7 @@
 		29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSkipLimitView.swift; sourceTree = "<group>"; };
 		29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupApplyStyleView.swift; sourceTree = "<group>"; };
 		29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholder.swift; sourceTree = "<group>"; };
+		29CF92F324E6869400B8A3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 				29B1758924D9579600FDDCDB /* ui */,
 				29B1758624D93C4C00FDDCDB /* ViewControllerRepresentable */,
 				290EA66824D82B5B00FA437D /* SwiftUI_TestApp.swift */,
+				29CF92F324E6869400B8A3DA /* AppDelegate.swift */,
 				290EA66C24D82B5D00FA437D /* Assets.xcassets */,
 				290EA67124D82B5D00FA437D /* Info.plist */,
 				290EA66E24D82B5D00FA437D /* Preview Content */,
@@ -163,6 +172,9 @@
 				298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */,
 				298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */,
 				298024E924E3D2DC0000CC6B /* TextFieldStyleView.swift */,
+				29749DB424E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift */,
+				29749DB624E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift */,
+				29749DB824E561AF0084DE74 /* TextFieldSimpleScrollView.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -284,6 +296,7 @@
 			files = (
 				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
+				29749DB524E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
 				2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */,
 				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
@@ -293,10 +306,13 @@
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
 				298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */,
 				2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */,
+				29749DB924E561AF0084DE74 /* TextFieldSimpleScrollView.swift in Sources */,
 				29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */,
 				298024E824E3D2D10000CC6B /* TextFieldSimpleView.swift in Sources */,
 				29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */,
+				29749DB724E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift in Sources */,
 				2965805C24DC01EC00204A46 /* TextHtml.swift in Sources */,
+				29CF92F424E6869400B8A3DA /* AppDelegate.swift in Sources */,
 				2965805A24DBE71500204A46 /* TextStyleView.swift in Sources */,
 				298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */,
 				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,

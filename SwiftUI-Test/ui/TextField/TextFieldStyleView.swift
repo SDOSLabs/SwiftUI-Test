@@ -11,8 +11,14 @@ struct TextFieldStyleView: View {
     @State var customPlaceholderText1: String = ""
     @State var customPlaceholderText2: String = ""
     
+    let disableScroll: Bool
+    
+    init(disableScroll: Bool = false) {
+        self.disableScroll = disableScroll
+    }
+    
     var body: some View {
-        ScrollView {
+        ScrollViewKeyboard(disableScroll: disableScroll) {
             VStack(spacing: 15) {
                 Group {
                     HeaderSectionView("buttonStyle")
@@ -56,6 +62,14 @@ struct TextFieldStyleView: View {
                     Divider()
                 }
                 Group {
+                    HeaderSectionView("autocapitalization")
+                    TextField("Autocapitalization allCharacters", text: .constant(""))
+                        .autocapitalization(.allCharacters)
+                    TextField("Autocapitalization words", text: .constant(""))
+                        .autocapitalization(.words)
+                    Divider()
+                }
+                Group {
                     HeaderSectionView("custom border")
                     TextField("Background", text: .constant(""))
                         .padding()
@@ -82,21 +96,26 @@ struct TextFieldStyleView: View {
                 }
                 Group {
                     HeaderSectionView("hide keyboard")
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
                     TextField("Hide keyboard", text: .constant(""))
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     Button("Done!") {
                         self.hideKeyboard()
                     }
-                    
                     TextField("Hide keyboard 2", text: .constant(""))
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     Divider()
                 }
+                Group {
+                    HeaderSectionView("SecureField")
+                    SecureField("Secure placeholder", text: .constant(""))
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    Divider()
+                }
             }
+            .padding()
+            
         }.navigationBarTitle("TextField Style", displayMode: .inline)
         .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
-        .padding()
         .contentShape(Rectangle())
         .onTapGesture {
             self.hideKeyboard()
