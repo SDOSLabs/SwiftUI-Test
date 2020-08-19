@@ -11,6 +11,9 @@
 		290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EA66A24D82B5B00FA437D /* HomeView.swift */; };
 		290EA66D24D82B5D00FA437D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290EA66C24D82B5D00FA437D /* Assets.xcassets */; };
 		290EA67024D82B5D00FA437D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290EA66F24D82B5D00FA437D /* Preview Assets.xcassets */; };
+		2920C7F624EBFBC10036C5CC /* SliderOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F524EBFBC10036C5CC /* SliderOptionsView.swift */; };
+		2920C7F824EBFC170036C5CC /* SliderSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F724EBFC170036C5CC /* SliderSimpleView.swift */; };
+		2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F924EBFC220036C5CC /* SliderStyleView.swift */; };
 		2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */; };
 		2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */; };
 		2965805624DBE3A200204A46 /* TextOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805524DBE3A200204A46 /* TextOptionsView.swift */; };
@@ -20,6 +23,7 @@
 		2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805E24DC171D00204A46 /* ButtonOptionsView.swift */; };
 		2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806024DC177700204A46 /* ButtonSimpleView.swift */; };
 		2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806224DC1A6200204A46 /* ButtonStyleView.swift */; };
+		296E881F24ED0DAF000E41C1 /* SliderCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E881E24ED0DAF000E41C1 /* SliderCustom.swift */; };
 		29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB224E51A520084DE74 /* KeyboardManager.swift */; };
 		29749DB524E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB424E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift */; };
 		29749DB724E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB624E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift */; };
@@ -52,6 +56,9 @@
 		290EA66C24D82B5D00FA437D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290EA66F24D82B5D00FA437D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		290EA67124D82B5D00FA437D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2920C7F524EBFBC10036C5CC /* SliderOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderOptionsView.swift; sourceTree = "<group>"; };
+		2920C7F724EBFC170036C5CC /* SliderSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSimpleView.swift; sourceTree = "<group>"; };
+		2920C7F924EBFC220036C5CC /* SliderStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStyleView.swift; sourceTree = "<group>"; };
 		2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
 		2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButtonStyle.swift; sourceTree = "<group>"; };
 		2965805524DBE3A200204A46 /* TextOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOptionsView.swift; sourceTree = "<group>"; };
@@ -61,6 +68,7 @@
 		2965805E24DC171D00204A46 /* ButtonOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOptionsView.swift; sourceTree = "<group>"; };
 		2965806024DC177700204A46 /* ButtonSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSimpleView.swift; sourceTree = "<group>"; };
 		2965806224DC1A6200204A46 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
+		296E881E24ED0DAF000E41C1 /* SliderCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCustom.swift; sourceTree = "<group>"; };
 		29749DB224E51A520084DE74 /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
 		29749DB424E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMultipleScrollVerticalView.swift; sourceTree = "<group>"; };
 		29749DB624E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMultipleScrollHorizontalView.swift; sourceTree = "<group>"; };
@@ -135,6 +143,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2920C7F424EBFBB10036C5CC /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				2920C7F524EBFBC10036C5CC /* SliderOptionsView.swift */,
+				2920C7F724EBFC170036C5CC /* SliderSimpleView.swift */,
+				2920C7F924EBFC220036C5CC /* SliderStyleView.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
 		2941C82C24E2BB0B0072DA8C /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +161,7 @@
 				29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */,
 				29749DB224E51A520084DE74 /* KeyboardManager.swift */,
 				2996FC0B24EA546F0055A72D /* ImageAsync.swift */,
+				296E881E24ED0DAF000E41C1 /* SliderCustom.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -200,6 +219,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				2920C7F424EBFBB10036C5CC /* Slider */,
 				29CF92F724E69C7900B8A3DA /* Image */,
 				298024E424E3D2900000CC6B /* TextField */,
 				298024E124E3D2890000CC6B /* View */,
@@ -322,11 +342,13 @@
 				2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */,
 				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
 				2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */,
+				2920C7F624EBFBC10036C5CC /* SliderOptionsView.swift in Sources */,
 				29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */,
 				298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */,
 				2996FC0C24EA546F0055A72D /* ImageAsync.swift in Sources */,
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
 				298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */,
+				2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */,
 				2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */,
 				29749DB924E561AF0084DE74 /* TextFieldSimpleScrollView.swift in Sources */,
 				29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */,
@@ -345,7 +367,9 @@
 				29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */,
 				2965805624DBE3A200204A46 /* TextOptionsView.swift in Sources */,
 				29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */,
+				296E881F24ED0DAF000E41C1 /* SliderCustom.swift in Sources */,
 				290EA66924D82B5B00FA437D /* SwiftUI_TestApp.swift in Sources */,
+				2920C7F824EBFC170036C5CC /* SliderSimpleView.swift in Sources */,
 				2996FC0A24EA53E10055A72D /* ImageURLView.swift in Sources */,
 				29B1759A24D9876700FDDCDB /* GroupEncapsulateView.swift in Sources */,
 			);
