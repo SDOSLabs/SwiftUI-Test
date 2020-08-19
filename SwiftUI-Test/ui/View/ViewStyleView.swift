@@ -13,28 +13,39 @@ struct ViewStyleView: View {
             VStack(spacing: 15) {
                 Group {
                     Group {
-                        HeaderSectionView("frame + background")
-                        Text("Hello, World!")
-                            .frame(width: 300, height: 100, alignment: .center)
-                            .background(Color.red)
-                        Divider()
-                    }
-                    Group {
-                        HeaderSectionView("background + frame")
-                        Text("Hello, World!")
-                            .background(Color.red)
-                            .frame(width: 300, height: 100, alignment: .center)
-                        Divider()
-                    }
-                    Group {
-                        HeaderSectionView("Two backgrounds")
-                        Text("Hello, World!")
-                            .padding()
-                            .background(Color.yellow)
-                            .frame(width: 300, height: 100, alignment: .center)
-                            .background(Color.red)
-                            .clipShape(Capsule())
-                        Divider()
+                        Group {
+                            HeaderSectionView("frame + background")
+                            Text("Hello, World!")
+                                .frame(width: 300, height: 100, alignment: .center)
+                                .background(Color.red)
+                            Divider()
+                        }
+                        Group {
+                            HeaderSectionView("background + frame")
+                            Text("Hello, World!")
+                                .background(Color.red)
+                                .frame(width: 300, height: 100, alignment: .center)
+                            Divider()
+                        }
+                        Group {
+                            HeaderSectionView("Two backgrounds")
+                            Text("Hello, World!")
+                                .padding()
+                                .background(Color.yellow)
+                                .frame(width: 300, height: 100, alignment: .center)
+                                .background(Color.red)
+                                .clipShape(Capsule())
+                            Divider()
+                        }
+                        Group {
+                            HeaderSectionView("accentColor")
+                            Group {
+                                Button("Hello, World!") { }
+                                Slider(value: .constant(5), in: 0...10)
+                            }
+                            .accentColor(.purple)
+                            Divider()
+                        }
                     }
                     Group {
                         HeaderSectionView("background")
