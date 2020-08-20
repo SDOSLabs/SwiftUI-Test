@@ -190,6 +190,16 @@ struct ViewStyleView: View {
                                 .overlay(Text("❤️")
                                             .offset(y: -5)
                                          , alignment: .bottom)
+                            Text("Hello, World!")
+                                .padding()
+                                .background(Color.black)
+                                .foregroundColor(.white)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .stroke(Color.green, lineWidth: 10)
+                                )
+                                .clipShape(RoundedRectangle(cornerRadius: 10))
+                            
                             Divider()
                         }
                         Group {

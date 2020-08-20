@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290BDF6F24EE7FE60049B8E4 /* BorderToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BDF6E24EE7FE60049B8E4 /* BorderToggleStyle.swift */; };
+		290BDF7124EE8DB00049B8E4 /* CheckToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BDF7024EE8DB00049B8E4 /* CheckToggleStyle.swift */; };
 		290EA66924D82B5B00FA437D /* SwiftUI_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EA66824D82B5B00FA437D /* SwiftUI_TestApp.swift */; };
 		290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EA66A24D82B5B00FA437D /* HomeView.swift */; };
 		290EA66D24D82B5D00FA437D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290EA66C24D82B5D00FA437D /* Assets.xcassets */; };
@@ -24,6 +26,9 @@
 		2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806024DC177700204A46 /* ButtonSimpleView.swift */; };
 		2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806224DC1A6200204A46 /* ButtonStyleView.swift */; };
 		296E881F24ED0DAF000E41C1 /* SliderCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E881E24ED0DAF000E41C1 /* SliderCustom.swift */; };
+		296E882224ED1D48000E41C1 /* ToggleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E882124ED1D48000E41C1 /* ToggleOptionsView.swift */; };
+		296E882424ED1D5A000E41C1 /* ToggleSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E882324ED1D5A000E41C1 /* ToggleSimpleView.swift */; };
+		296E882624ED1D66000E41C1 /* ToggleStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E882524ED1D66000E41C1 /* ToggleStyleView.swift */; };
 		29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB224E51A520084DE74 /* KeyboardManager.swift */; };
 		29749DB524E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB424E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift */; };
 		29749DB724E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29749DB624E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift */; };
@@ -50,6 +55,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		290BDF6E24EE7FE60049B8E4 /* BorderToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderToggleStyle.swift; sourceTree = "<group>"; };
+		290BDF7024EE8DB00049B8E4 /* CheckToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckToggleStyle.swift; sourceTree = "<group>"; };
 		290EA66524D82B5B00FA437D /* SwiftUI-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		290EA66824D82B5B00FA437D /* SwiftUI_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TestApp.swift; sourceTree = "<group>"; };
 		290EA66A24D82B5B00FA437D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -69,6 +76,9 @@
 		2965806024DC177700204A46 /* ButtonSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSimpleView.swift; sourceTree = "<group>"; };
 		2965806224DC1A6200204A46 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
 		296E881E24ED0DAF000E41C1 /* SliderCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCustom.swift; sourceTree = "<group>"; };
+		296E882124ED1D48000E41C1 /* ToggleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleOptionsView.swift; sourceTree = "<group>"; };
+		296E882324ED1D5A000E41C1 /* ToggleSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSimpleView.swift; sourceTree = "<group>"; };
+		296E882524ED1D66000E41C1 /* ToggleStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyleView.swift; sourceTree = "<group>"; };
 		29749DB224E51A520084DE74 /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
 		29749DB424E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMultipleScrollVerticalView.swift; sourceTree = "<group>"; };
 		29749DB624E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldMultipleScrollHorizontalView.swift; sourceTree = "<group>"; };
@@ -162,6 +172,8 @@
 				29749DB224E51A520084DE74 /* KeyboardManager.swift */,
 				2996FC0B24EA546F0055A72D /* ImageAsync.swift */,
 				296E881E24ED0DAF000E41C1 /* SliderCustom.swift */,
+				290BDF6E24EE7FE60049B8E4 /* BorderToggleStyle.swift */,
+				290BDF7024EE8DB00049B8E4 /* CheckToggleStyle.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -184,6 +196,16 @@
 				2965806224DC1A6200204A46 /* ButtonStyleView.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		296E882024ED1D37000E41C1 /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				296E882124ED1D48000E41C1 /* ToggleOptionsView.swift */,
+				296E882324ED1D5A000E41C1 /* ToggleSimpleView.swift */,
+				296E882524ED1D66000E41C1 /* ToggleStyleView.swift */,
+			);
+			path = Toggle;
 			sourceTree = "<group>";
 		};
 		298024E124E3D2890000CC6B /* View */ = {
@@ -219,6 +241,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				296E882024ED1D37000E41C1 /* Toggle */,
 				2920C7F424EBFBB10036C5CC /* Slider */,
 				29CF92F724E69C7900B8A3DA /* Image */,
 				298024E424E3D2900000CC6B /* TextField */,
@@ -334,12 +357,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296E882424ED1D5A000E41C1 /* ToggleSimpleView.swift in Sources */,
 				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
 				29749DB524E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
 				2993F65624EAAD1C0027C41D /* ImageStyleView.swift in Sources */,
 				2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */,
+				296E882224ED1D48000E41C1 /* ToggleOptionsView.swift in Sources */,
 				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
 				2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */,
 				2920C7F624EBFBC10036C5CC /* SliderOptionsView.swift in Sources */,
@@ -356,8 +381,11 @@
 				29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */,
 				29749DB724E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift in Sources */,
 				2965805C24DC01EC00204A46 /* TextHtml.swift in Sources */,
+				290BDF7124EE8DB00049B8E4 /* CheckToggleStyle.swift in Sources */,
 				29CF92F424E6869400B8A3DA /* AppDelegate.swift in Sources */,
 				29CF92F624E69C6E00B8A3DA /* ImageOptionsView.swift in Sources */,
+				296E882624ED1D66000E41C1 /* ToggleStyleView.swift in Sources */,
+				290BDF6F24EE7FE60049B8E4 /* BorderToggleStyle.swift in Sources */,
 				2965805A24DBE71500204A46 /* TextStyleView.swift in Sources */,
 				298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */,
 				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,
