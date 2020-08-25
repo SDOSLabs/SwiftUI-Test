@@ -47,7 +47,6 @@ struct NavigationConfigurator: UIViewControllerRepresentable {
             super.viewWillAppear(animated)
             
             var items = [UINavigationController]()
-            
             if let sv = self.splitViewController {
                 if let nc = sv.viewControllers.last as? UINavigationController, !items.contains(nc), sv.viewControllers.first != self.navigationController {
                     items.append(nc)
