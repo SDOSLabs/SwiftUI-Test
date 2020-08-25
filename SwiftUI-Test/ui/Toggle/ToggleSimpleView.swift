@@ -35,6 +35,8 @@ struct ToggleSimpleView: View {
 
 struct ToggleSimpleView_Previews: PreviewProvider {
     static var previews: some View {
-        ToggleSimpleView()
+        NavigationView {
+            ToggleSimpleView()
+        }
     }
 }

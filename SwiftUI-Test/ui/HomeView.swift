@@ -20,6 +20,7 @@ struct HomeView: View {
                 NavigationLink("Image", destination: ImageOptionsView())
                 NavigationLink("Slider", destination: SliderOptionsView())
                 NavigationLink("Toogle", destination: ToggleOptionsView())
+                NavigationLink("NavigationView", destination: NavigationViewOptionsView())
             }
             .navigationBarTitle("Home", displayMode: .automatic)
             .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))

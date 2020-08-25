@@ -23,20 +23,6 @@ struct NavigationConfigurator: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ uiViewController: UIViewController, context: UIViewControllerRepresentableContext<Self>) {
-        //        DispatchQueue.main.async {
-        //            if let sv = uiViewController.splitViewController {
-        //                sv.viewControllers.forEach {
-        //                    if let nc = $0 as? UINavigationController {
-        //                        applyStyle(nc)
-        //                    }
-        //                }
-        //            }
-        //
-        //            if let nc = uiViewController.navigationController {
-        //                applyStyle(nc)
-        //            }
-        //        }
-        
     }
     
     func makeCoordinator() -> Coordinator {
@@ -62,13 +48,11 @@ struct NavigationConfigurator: UIViewControllerRepresentable {
             
             var items = [UINavigationController]()
             
-//            if let sv = self.splitViewController {
-//                sv.viewControllers.forEach {
-//                    if let nc = $0 as? UINavigationController, !items.contains(nc) {
-//                        items.append(nc)
-//                    }
-//                }
-//            }
+            if let sv = self.splitViewController {
+                if let nc = sv.viewControllers.last as? UINavigationController, !items.contains(nc), sv.viewControllers.first != self.navigationController {
+                    items.append(nc)
+                }
+            }
             
             if let nc = self.navigationController, !items.contains(nc) {
                 items.append(nc)
@@ -79,10 +63,12 @@ struct NavigationConfigurator: UIViewControllerRepresentable {
         
         private func applyStyle(_ items: [UINavigationController]) {
             items.forEach{ nc in
+                //Without this, appearance not applied
                 let last = nc.navigationBar.barTintColor
                 nc.navigationBar.barTintColor = .red
                 nc.navigationBar.barTintColor = .white
                 nc.navigationBar.barTintColor = last
+                //----------
                 
                 let navBarAppearance = UINavigationBarAppearance()
                 navBarAppearance.configureWithOpaqueBackground()

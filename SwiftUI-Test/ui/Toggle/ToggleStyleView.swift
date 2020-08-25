@@ -60,6 +60,8 @@ struct ToggleStyleView: View {
 
 struct ToggleStyleView_Previews: PreviewProvider {
     static var previews: some View {
-        ToggleStyleView()
+        NavigationView {
+            ToggleStyleView()
+        }
     }
 }
