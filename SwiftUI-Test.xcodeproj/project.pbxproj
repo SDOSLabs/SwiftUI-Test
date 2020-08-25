@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2906DB5524F4EF950053F435 /* TabViewOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906DB5424F4EF950053F435 /* TabViewOptionsView.swift */; };
+		2906DB5724F4EFCB0053F435 /* TabViewSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906DB5624F4EFCB0053F435 /* TabViewSimpleView.swift */; };
 		290BDF6F24EE7FE60049B8E4 /* BorderToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BDF6E24EE7FE60049B8E4 /* BorderToggleStyle.swift */; };
 		290BDF7124EE8DB00049B8E4 /* CheckToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BDF7024EE8DB00049B8E4 /* CheckToggleStyle.swift */; };
 		290EA66924D82B5B00FA437D /* SwiftUI_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290EA66824D82B5B00FA437D /* SwiftUI_TestApp.swift */; };
@@ -55,12 +57,16 @@
 		29B1759A24D9876700FDDCDB /* GroupEncapsulateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */; };
 		29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */; };
 		29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */; };
+		29BDF6F324F50A18004C9546 /* TabViewSimpleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BDF6F224F50A18004C9546 /* TabViewSimpleSelectionView.swift */; };
+		29BDF6F524F51072004C9546 /* TabViewStyleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BDF6F424F51072004C9546 /* TabViewStyleOptionsView.swift */; };
 		29CDE75924E40E0D00363BA2 /* CustomPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */; };
 		29CF92F424E6869400B8A3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF92F324E6869400B8A3DA /* AppDelegate.swift */; };
 		29CF92F624E69C6E00B8A3DA /* ImageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF92F524E69C6E00B8A3DA /* ImageOptionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2906DB5424F4EF950053F435 /* TabViewOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewOptionsView.swift; sourceTree = "<group>"; };
+		2906DB5624F4EFCB0053F435 /* TabViewSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewSimpleView.swift; sourceTree = "<group>"; };
 		290BDF6E24EE7FE60049B8E4 /* BorderToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderToggleStyle.swift; sourceTree = "<group>"; };
 		290BDF7024EE8DB00049B8E4 /* CheckToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckToggleStyle.swift; sourceTree = "<group>"; };
 		290EA66524D82B5B00FA437D /* SwiftUI-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +117,8 @@
 		29B1759924D9876700FDDCDB /* GroupEncapsulateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupEncapsulateView.swift; sourceTree = "<group>"; };
 		29B1759B24D9877700FDDCDB /* GroupSkipLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSkipLimitView.swift; sourceTree = "<group>"; };
 		29B1759D24D9896C00FDDCDB /* GroupApplyStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupApplyStyleView.swift; sourceTree = "<group>"; };
+		29BDF6F224F50A18004C9546 /* TabViewSimpleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewSimpleSelectionView.swift; sourceTree = "<group>"; };
+		29BDF6F424F51072004C9546 /* TabViewStyleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewStyleOptionsView.swift; sourceTree = "<group>"; };
 		29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholder.swift; sourceTree = "<group>"; };
 		29CF92F324E6869400B8A3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29CF92F524E69C6E00B8A3DA /* ImageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOptionsView.swift; sourceTree = "<group>"; };
@@ -127,6 +135,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2906DB5324F4EF830053F435 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				2906DB5424F4EF950053F435 /* TabViewOptionsView.swift */,
+				2906DB5624F4EFCB0053F435 /* TabViewSimpleView.swift */,
+				29BDF6F224F50A18004C9546 /* TabViewSimpleSelectionView.swift */,
+				29BDF6F424F51072004C9546 /* TabViewStyleOptionsView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 		290EA65C24D82B5B00FA437D = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +285,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				2906DB5324F4EF830053F435 /* TabView */,
 				29644EF924EFB8E200A87E42 /* NavigationView */,
 				296E882024ED1D37000E41C1 /* Toggle */,
 				2920C7F424EBFBB10036C5CC /* Slider */,
@@ -386,6 +406,7 @@
 				29644EFB24EFB8FA00A87E42 /* NavigationViewOptionsView.swift in Sources */,
 				296E882424ED1D5A000E41C1 /* ToggleSimpleView.swift in Sources */,
 				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
+				29BDF6F524F51072004C9546 /* TabViewStyleOptionsView.swift in Sources */,
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
 				29749DB524E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
@@ -395,14 +416,17 @@
 				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
 				2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */,
 				2920C7F624EBFBC10036C5CC /* SliderOptionsView.swift in Sources */,
+				29BDF6F324F50A18004C9546 /* TabViewSimpleSelectionView.swift in Sources */,
 				29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */,
 				298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */,
 				2996FC0C24EA546F0055A72D /* ImageAsync.swift in Sources */,
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
+				2906DB5724F4EFCB0053F435 /* TabViewSimpleView.swift in Sources */,
 				298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */,
 				2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */,
 				2962200624F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift in Sources */,
 				2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */,
+				2906DB5524F4EF950053F435 /* TabViewOptionsView.swift in Sources */,
 				29749DB924E561AF0084DE74 /* TextFieldSimpleScrollView.swift in Sources */,
 				29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */,
 				298024E824E3D2D10000CC6B /* TextFieldSimpleView.swift in Sources */,
