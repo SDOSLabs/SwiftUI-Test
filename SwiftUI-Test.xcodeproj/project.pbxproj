@@ -18,6 +18,12 @@
 		2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F924EBFC220036C5CC /* SliderStyleView.swift */; };
 		2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */; };
 		2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */; };
+		2962200624F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962200524F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift */; };
+		2962200824F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962200724F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift */; };
+		29644EFB24EFB8FA00A87E42 /* NavigationViewOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29644EFA24EFB8FA00A87E42 /* NavigationViewOptionsView.swift */; };
+		29644EFD24EFB90F00A87E42 /* NavigationViewSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29644EFC24EFB90F00A87E42 /* NavigationViewSimpleView.swift */; };
+		29644EFF24EFD05E00A87E42 /* NavigationViewPushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29644EFE24EFD05E00A87E42 /* NavigationViewPushView.swift */; };
+		29644F0124EFD8D200A87E42 /* NavigationViewPushManualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29644F0024EFD8D200A87E42 /* NavigationViewPushManualView.swift */; };
 		2965805624DBE3A200204A46 /* TextOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805524DBE3A200204A46 /* TextOptionsView.swift */; };
 		2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805724DBE3FC00204A46 /* TextSimpleView.swift */; };
 		2965805A24DBE71500204A46 /* TextStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805924DBE71500204A46 /* TextStyleView.swift */; };
@@ -68,6 +74,12 @@
 		2920C7F924EBFC220036C5CC /* SliderStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStyleView.swift; sourceTree = "<group>"; };
 		2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
 		2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButtonStyle.swift; sourceTree = "<group>"; };
+		2962200524F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyleOptionsView.swift; sourceTree = "<group>"; };
+		2962200724F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewCustomNavigationBarView.swift; sourceTree = "<group>"; };
+		29644EFA24EFB8FA00A87E42 /* NavigationViewOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewOptionsView.swift; sourceTree = "<group>"; };
+		29644EFC24EFB90F00A87E42 /* NavigationViewSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewSimpleView.swift; sourceTree = "<group>"; };
+		29644EFE24EFD05E00A87E42 /* NavigationViewPushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPushView.swift; sourceTree = "<group>"; };
+		29644F0024EFD8D200A87E42 /* NavigationViewPushManualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPushManualView.swift; sourceTree = "<group>"; };
 		2965805524DBE3A200204A46 /* TextOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOptionsView.swift; sourceTree = "<group>"; };
 		2965805724DBE3FC00204A46 /* TextSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSimpleView.swift; sourceTree = "<group>"; };
 		2965805924DBE71500204A46 /* TextStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleView.swift; sourceTree = "<group>"; };
@@ -178,6 +190,19 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		29644EF924EFB8E200A87E42 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				29644EFA24EFB8FA00A87E42 /* NavigationViewOptionsView.swift */,
+				29644EFC24EFB90F00A87E42 /* NavigationViewSimpleView.swift */,
+				29644EFE24EFD05E00A87E42 /* NavigationViewPushView.swift */,
+				29644F0024EFD8D200A87E42 /* NavigationViewPushManualView.swift */,
+				2962200524F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift */,
+				2962200724F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
 		2965805424DBE38600204A46 /* Text */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +266,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				29644EF924EFB8E200A87E42 /* NavigationView */,
 				296E882024ED1D37000E41C1 /* Toggle */,
 				2920C7F424EBFBB10036C5CC /* Slider */,
 				29CF92F724E69C7900B8A3DA /* Image */,
@@ -357,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29644EFB24EFB8FA00A87E42 /* NavigationViewOptionsView.swift in Sources */,
 				296E882424ED1D5A000E41C1 /* ToggleSimpleView.swift in Sources */,
 				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
@@ -374,6 +401,7 @@
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
 				298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */,
 				2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */,
+				2962200624F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift in Sources */,
 				2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */,
 				29749DB924E561AF0084DE74 /* TextFieldSimpleScrollView.swift in Sources */,
 				29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */,
@@ -381,19 +409,23 @@
 				29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */,
 				29749DB724E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift in Sources */,
 				2965805C24DC01EC00204A46 /* TextHtml.swift in Sources */,
+				29644F0124EFD8D200A87E42 /* NavigationViewPushManualView.swift in Sources */,
 				290BDF7124EE8DB00049B8E4 /* CheckToggleStyle.swift in Sources */,
 				29CF92F424E6869400B8A3DA /* AppDelegate.swift in Sources */,
 				29CF92F624E69C6E00B8A3DA /* ImageOptionsView.swift in Sources */,
 				296E882624ED1D66000E41C1 /* ToggleStyleView.swift in Sources */,
 				290BDF6F24EE7FE60049B8E4 /* BorderToggleStyle.swift in Sources */,
 				2965805A24DBE71500204A46 /* TextStyleView.swift in Sources */,
+				29644EFF24EFD05E00A87E42 /* NavigationViewPushView.swift in Sources */,
 				298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */,
 				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,
 				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
 				2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */,
 				29CDE75924E40E0D00363BA2 /* CustomPlaceholder.swift in Sources */,
 				29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */,
+				29644EFD24EFB90F00A87E42 /* NavigationViewSimpleView.swift in Sources */,
 				2965805624DBE3A200204A46 /* TextOptionsView.swift in Sources */,
+				2962200824F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift in Sources */,
 				29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */,
 				296E881F24ED0DAF000E41C1 /* SliderCustom.swift in Sources */,
 				290EA66924D82B5B00FA437D /* SwiftUI_TestApp.swift in Sources */,
