@@ -25,6 +25,7 @@ struct HomeView: View {
                 }
                 Group {
                     NavigationLink("TabView", destination: TabViewOptionsView())
+                    NavigationLink("ScrollView", destination: ScrollViewOptionsView())
                 }
             }
             .navigationBarTitle("Home", displayMode: .automatic)
