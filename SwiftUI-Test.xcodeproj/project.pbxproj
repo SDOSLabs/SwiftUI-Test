@@ -61,7 +61,7 @@
 		29BDF6F524F51072004C9546 /* TabViewStyleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BDF6F424F51072004C9546 /* TabViewStyleOptionsView.swift */; };
 		29BDF6F824F52B5A004C9546 /* ScrollViewOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BDF6F724F52B5A004C9546 /* ScrollViewOptionsView.swift */; };
 		29BDF6FA24F52B6A004C9546 /* ScrollViewSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BDF6F924F52B6A004C9546 /* ScrollViewSimpleView.swift */; };
-		29BDF6FC24F52B8E004C9546 /* ScrollViewStyleoptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BDF6FB24F52B8E004C9546 /* ScrollViewStyleoptionsView.swift */; };
+		29BDF6FC24F52B8E004C9546 /* ScrollViewScrollToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BDF6FB24F52B8E004C9546 /* ScrollViewScrollToView.swift */; };
 		29CDE75924E40E0D00363BA2 /* CustomPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */; };
 		29CF92F424E6869400B8A3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF92F324E6869400B8A3DA /* AppDelegate.swift */; };
 		29CF92F624E69C6E00B8A3DA /* ImageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF92F524E69C6E00B8A3DA /* ImageOptionsView.swift */; };
@@ -124,7 +124,7 @@
 		29BDF6F424F51072004C9546 /* TabViewStyleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewStyleOptionsView.swift; sourceTree = "<group>"; };
 		29BDF6F724F52B5A004C9546 /* ScrollViewOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOptionsView.swift; sourceTree = "<group>"; };
 		29BDF6F924F52B6A004C9546 /* ScrollViewSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSimpleView.swift; sourceTree = "<group>"; };
-		29BDF6FB24F52B8E004C9546 /* ScrollViewStyleoptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewStyleoptionsView.swift; sourceTree = "<group>"; };
+		29BDF6FB24F52B8E004C9546 /* ScrollViewScrollToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewScrollToView.swift; sourceTree = "<group>"; };
 		29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholder.swift; sourceTree = "<group>"; };
 		29CF92F324E6869400B8A3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29CF92F524E69C6E00B8A3DA /* ImageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOptionsView.swift; sourceTree = "<group>"; };
@@ -336,7 +336,7 @@
 			children = (
 				29BDF6F724F52B5A004C9546 /* ScrollViewOptionsView.swift */,
 				29BDF6F924F52B6A004C9546 /* ScrollViewSimpleView.swift */,
-				29BDF6FB24F52B8E004C9546 /* ScrollViewStyleoptionsView.swift */,
+				29BDF6FB24F52B8E004C9546 /* ScrollViewScrollToView.swift */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -438,7 +438,7 @@
 				298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */,
 				2996FC0C24EA546F0055A72D /* ImageAsync.swift in Sources */,
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
-				29BDF6FC24F52B8E004C9546 /* ScrollViewStyleoptionsView.swift in Sources */,
+				29BDF6FC24F52B8E004C9546 /* ScrollViewScrollToView.swift in Sources */,
 				2906DB5724F4EFCB0053F435 /* TabViewSimpleView.swift in Sources */,
 				298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */,
 				2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */,

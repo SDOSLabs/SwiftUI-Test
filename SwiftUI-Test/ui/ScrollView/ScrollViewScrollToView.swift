@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-struct ScrollViewStyleoptionsView: View {
+struct ScrollViewScrollToView: View {
         @State private var index: String = ""
         @State private var selectedIndex: Int?
         @State private var doScroll: Bool = false
@@ -66,15 +66,15 @@ struct ScrollViewStyleoptionsView: View {
                 .background(Color.yellow.opacity(0.3))
             }
         .padding()
-        .navigationBarTitle("Vertical", displayMode: .inline)
+        .navigationBarTitle("ScrollViewReader", displayMode: .inline)
         .navigationColor(background: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), title: .white)
     }
 }
 
-struct ScrollViewStyleoptionsView_Previews: PreviewProvider {
+struct ScrollViewScrollToView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ScrollViewStyleoptionsView()
+            ScrollViewScrollToView()
         }
     }
 }
