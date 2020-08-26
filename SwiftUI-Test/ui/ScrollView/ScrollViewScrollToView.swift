@@ -22,10 +22,8 @@ struct ScrollViewScrollToView: View {
                         .keyboardType(.numberPad)
                         .onReceive(Just(index), perform: { value in
                             let filtered = "\(value)".filter { "0123456789".contains($0) }
-                            if let filtered = Int(filtered) {
+                            if filtered != value {
                                 self.index = "\(filtered)"
-                            } else {
-                                self.index = ""
                             }
                         })
                     Button("Scroll!") {

@@ -6,10 +6,14 @@
 //
 
 import SwiftUI
+import Combine
 
 struct TextFieldStyleView: View {
     @State var customPlaceholderText1: String = ""
     @State var customPlaceholderText2: String = ""
+    
+    @State var onlyNumbersValue: String = ""
+    @State var maxLenghtValue: String = ""
     
     let disableScroll: Bool
     
@@ -118,6 +122,30 @@ struct TextFieldStyleView: View {
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                         Divider()
                     }
+                }
+                Group {
+                    HeaderSectionView("Only numbers")
+                    TextField("Only numbers", text: $onlyNumbersValue)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .onReceive(Just(onlyNumbersValue)) { value in
+                            let filtered = "\(value)".filter { "0123456789".contains($0) }
+                            if filtered != value {
+                                self.onlyNumbersValue = "\(filtered)"
+                            }
+                        }
+                    Divider()
+                }
+                Group {
+                    HeaderSectionView("Max Lenght (10 chars)")
+                    TextField("Max Lenght (10 chars)", text: $maxLenghtValue)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .onReceive(Just(maxLenghtValue)) { value in
+                            let shortString = String(value.prefix(10))
+                            if shortString != value {
+                                self.maxLenghtValue = shortString
+                            }
+                        }
+                    Divider()
                 }
                 Group {
                     HeaderSectionView("SecureField")
