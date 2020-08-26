@@ -10,7 +10,7 @@ import SwiftUI
 struct TextFieldMultipleScrollVerticalView: View {
     var body: some View {
         GeometryReader { geometry in
-            ScrollViewKeyboard {
+            ScrollView {
                 HStack {
                     VStack {
                         TextFieldStyleView(disableScroll: true)

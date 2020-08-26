@@ -67,6 +67,18 @@ struct ButtonStyleView: View {
                     Divider()
                 }
                 Group {
+                    HeaderSectionView("Tappable area")
+                    Button(action: {
+                        textAlert = "Tappable area"
+                        alertPresent.toggle()
+                    }, label: {
+                        Text("Test tappable area")
+                            .frame(width: 200, height: 200)
+                    })
+                    .background(Color.red.opacity(0.3))
+                    Divider()
+                }
+                Group {
                     HeaderSectionView("SelectableButtonStyle")
                     Button(action: {
                         textAlert = "Hello\nButton!"
