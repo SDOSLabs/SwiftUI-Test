@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2903FCB324F7891D005DC211 /* GeometryReaderOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903FCB224F7891D005DC211 /* GeometryReaderOptionsView.swift */; };
+		2903FCB524F7AB92005DC211 /* GeometryReaderAlignFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903FCB424F7AB92005DC211 /* GeometryReaderAlignFormView.swift */; };
+		2903FCB724F7B1D3005DC211 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903FCB624F7B1D3005DC211 /* Util.swift */; };
 		2906DB5524F4EF950053F435 /* TabViewOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906DB5424F4EF950053F435 /* TabViewOptionsView.swift */; };
 		2906DB5724F4EFCB0053F435 /* TabViewSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906DB5624F4EFCB0053F435 /* TabViewSimpleView.swift */; };
 		290BDF6F24EE7FE60049B8E4 /* BorderToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BDF6E24EE7FE60049B8E4 /* BorderToggleStyle.swift */; };
@@ -71,6 +74,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2903FCB224F7891D005DC211 /* GeometryReaderOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderOptionsView.swift; sourceTree = "<group>"; };
+		2903FCB424F7AB92005DC211 /* GeometryReaderAlignFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderAlignFormView.swift; sourceTree = "<group>"; };
+		2903FCB624F7B1D3005DC211 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		2906DB5424F4EF950053F435 /* TabViewOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewOptionsView.swift; sourceTree = "<group>"; };
 		2906DB5624F4EFCB0053F435 /* TabViewSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewSimpleView.swift; sourceTree = "<group>"; };
 		290BDF6E24EE7FE60049B8E4 /* BorderToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderToggleStyle.swift; sourceTree = "<group>"; };
@@ -147,6 +153,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2903FCB124F77E16005DC211 /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				2903FCB224F7891D005DC211 /* GeometryReaderOptionsView.swift */,
+				2903FCB424F7AB92005DC211 /* GeometryReaderAlignFormView.swift */,
+			);
+			path = GeometryReader;
+			sourceTree = "<group>";
+		};
 		2906DB5324F4EF830053F435 /* TabView */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +256,7 @@
 				296E881E24ED0DAF000E41C1 /* SliderCustom.swift */,
 				290BDF6E24EE7FE60049B8E4 /* BorderToggleStyle.swift */,
 				290BDF7024EE8DB00049B8E4 /* CheckToggleStyle.swift */,
+				2903FCB624F7B1D3005DC211 /* Util.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -321,6 +337,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				2903FCB124F77E16005DC211 /* GeometryReader */,
 				290DDAFF24F67652006B6491 /* ZStack */,
 				290DDAFE24F6718C006B6491 /* HStack */,
 				290DDAF924F66751006B6491 /* VStack */,
@@ -497,6 +514,7 @@
 				29644EFF24EFD05E00A87E42 /* NavigationViewPushView.swift in Sources */,
 				298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */,
 				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,
+				2903FCB324F7891D005DC211 /* GeometryReaderOptionsView.swift in Sources */,
 				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
 				290DDAFD24F67187006B6491 /* HStackView.swift in Sources */,
 				2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */,
@@ -511,7 +529,9 @@
 				2920C7F824EBFC170036C5CC /* SliderSimpleView.swift in Sources */,
 				2996FC0A24EA53E10055A72D /* ImageURLView.swift in Sources */,
 				29B1759A24D9876700FDDCDB /* GroupEncapsulateView.swift in Sources */,
+				2903FCB724F7B1D3005DC211 /* Util.swift in Sources */,
 				29BDF6F824F52B5A004C9546 /* ScrollViewOptionsView.swift in Sources */,
+				2903FCB524F7AB92005DC211 /* GeometryReaderAlignFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
