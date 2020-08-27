@@ -43,7 +43,6 @@ struct GeometryReaderAlignFormView: View {
         }
         .onPreferenceChange(WidthPreferenceKey.self) {
             if $0 > self.maxLabelWidth {
-                print($0)
                 self.maxLabelWidth = $0
             }
         }
