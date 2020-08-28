@@ -166,7 +166,7 @@ struct NavigationViewStyle7View: View {
                 }
                 .navigationViewStyle(StackNavigationViewStyle())
                 .navigationBarTitle("First", displayMode: .inline)
-                .toolbar(items: {
+                .toolbar(content: {
                     ToolbarItem(placement: .bottomBar) {
                         HStack {
                             Button("First") {

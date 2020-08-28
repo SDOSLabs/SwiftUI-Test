@@ -29,6 +29,7 @@ struct HomeView: View {
                     NavigationLink("VStack", destination: VStackView())
                     NavigationLink("HStack", destination: HStackView())
                     NavigationLink("ZStack", destination: ZStackView())
+                    NavigationLink("GeometryReader", destination: GeometryReaderOptionsView())
                 }
             }
             .navigationBarTitle("Home", displayMode: .automatic)
