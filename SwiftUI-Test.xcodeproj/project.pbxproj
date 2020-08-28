@@ -26,6 +26,7 @@
 		2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F924EBFC220036C5CC /* SliderStyleView.swift */; };
 		2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */; };
 		2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */; };
+		2959906724F8E70200148FA0 /* GeometryReaderEqualWidthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959906624F8E70200148FA0 /* GeometryReaderEqualWidthView.swift */; };
 		2962200624F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962200524F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift */; };
 		2962200824F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962200724F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift */; };
 		29644EFB24EFB8FA00A87E42 /* NavigationViewOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29644EFA24EFB8FA00A87E42 /* NavigationViewOptionsView.swift */; };
@@ -39,6 +40,8 @@
 		2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965805E24DC171D00204A46 /* ButtonOptionsView.swift */; };
 		2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806024DC177700204A46 /* ButtonSimpleView.swift */; };
 		2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965806224DC1A6200204A46 /* ButtonStyleView.swift */; };
+		296D13C024F8F98500EB2E7A /* GeometryReaderAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D13BF24F8F98500EB2E7A /* GeometryReaderAnimationView.swift */; };
+		296D13C224F90C0D00EB2E7A /* GeometryReaderCoordinatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296D13C124F90C0D00EB2E7A /* GeometryReaderCoordinatesView.swift */; };
 		296E881F24ED0DAF000E41C1 /* SliderCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E881E24ED0DAF000E41C1 /* SliderCustom.swift */; };
 		296E882224ED1D48000E41C1 /* ToggleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E882124ED1D48000E41C1 /* ToggleOptionsView.swift */; };
 		296E882424ED1D5A000E41C1 /* ToggleSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E882324ED1D5A000E41C1 /* ToggleSimpleView.swift */; };
@@ -95,6 +98,8 @@
 		2920C7F924EBFC220036C5CC /* SliderStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStyleView.swift; sourceTree = "<group>"; };
 		2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
 		2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButtonStyle.swift; sourceTree = "<group>"; };
+		2959906524F8E52900148FA0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		2959906624F8E70200148FA0 /* GeometryReaderEqualWidthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderEqualWidthView.swift; sourceTree = "<group>"; };
 		2962200524F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyleOptionsView.swift; sourceTree = "<group>"; };
 		2962200724F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewCustomNavigationBarView.swift; sourceTree = "<group>"; };
 		29644EFA24EFB8FA00A87E42 /* NavigationViewOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewOptionsView.swift; sourceTree = "<group>"; };
@@ -108,6 +113,8 @@
 		2965805E24DC171D00204A46 /* ButtonOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOptionsView.swift; sourceTree = "<group>"; };
 		2965806024DC177700204A46 /* ButtonSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSimpleView.swift; sourceTree = "<group>"; };
 		2965806224DC1A6200204A46 /* ButtonStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleView.swift; sourceTree = "<group>"; };
+		296D13BF24F8F98500EB2E7A /* GeometryReaderAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderAnimationView.swift; sourceTree = "<group>"; };
+		296D13C124F90C0D00EB2E7A /* GeometryReaderCoordinatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderCoordinatesView.swift; sourceTree = "<group>"; };
 		296E881E24ED0DAF000E41C1 /* SliderCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCustom.swift; sourceTree = "<group>"; };
 		296E882124ED1D48000E41C1 /* ToggleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleOptionsView.swift; sourceTree = "<group>"; };
 		296E882324ED1D5A000E41C1 /* ToggleSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSimpleView.swift; sourceTree = "<group>"; };
@@ -158,6 +165,9 @@
 			children = (
 				2903FCB224F7891D005DC211 /* GeometryReaderOptionsView.swift */,
 				2903FCB424F7AB92005DC211 /* GeometryReaderAlignFormView.swift */,
+				2959906624F8E70200148FA0 /* GeometryReaderEqualWidthView.swift */,
+				296D13BF24F8F98500EB2E7A /* GeometryReaderAnimationView.swift */,
+				296D13C124F90C0D00EB2E7A /* GeometryReaderCoordinatesView.swift */,
 			);
 			path = GeometryReader;
 			sourceTree = "<group>";
@@ -200,6 +210,7 @@
 		290EA65C24D82B5B00FA437D = {
 			isa = PBXGroup;
 			children = (
+				2959906524F8E52900148FA0 /* Readme.md */,
 				290EA66724D82B5B00FA437D /* SwiftUI-Test */,
 				290EA66624D82B5B00FA437D /* Products */,
 			);
@@ -484,6 +495,7 @@
 				296E882224ED1D48000E41C1 /* ToggleOptionsView.swift in Sources */,
 				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
 				2965805824DBE3FC00204A46 /* TextSimpleView.swift in Sources */,
+				296D13C224F90C0D00EB2E7A /* GeometryReaderCoordinatesView.swift in Sources */,
 				2920C7F624EBFBC10036C5CC /* SliderOptionsView.swift in Sources */,
 				29BDF6F324F50A18004C9546 /* TabViewSimpleSelectionView.swift in Sources */,
 				29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */,
@@ -525,7 +537,9 @@
 				2962200824F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift in Sources */,
 				29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */,
 				296E881F24ED0DAF000E41C1 /* SliderCustom.swift in Sources */,
+				296D13C024F8F98500EB2E7A /* GeometryReaderAnimationView.swift in Sources */,
 				290EA66924D82B5B00FA437D /* SwiftUI_TestApp.swift in Sources */,
+				2959906724F8E70200148FA0 /* GeometryReaderEqualWidthView.swift in Sources */,
 				2920C7F824EBFC170036C5CC /* SliderSimpleView.swift in Sources */,
 				2996FC0A24EA53E10055A72D /* ImageURLView.swift in Sources */,
 				29B1759A24D9876700FDDCDB /* GroupEncapsulateView.swift in Sources */,

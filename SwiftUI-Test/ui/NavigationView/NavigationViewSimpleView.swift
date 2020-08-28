@@ -35,7 +35,7 @@ struct NavigationViewSimpleInitView: View {
                                             //Do something
                                         }
                                     })
-            .toolbar(items: {
+            .toolbar(content: {
                 ToolbarItem(placement: .bottomBar) {
                     HStack {
                         Button("First") {

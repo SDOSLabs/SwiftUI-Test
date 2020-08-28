@@ -12,7 +12,10 @@ struct GeometryReaderOptionsView: View {
     
     var body: some View {
         List {
+            NavigationLink("Coordinates", destination: GeometryReaderCoordinatesView())
             NavigationLink("Align Form", destination: GeometryReaderAlignFormView())
+            NavigationLink("Equal Width", destination: GeometryReaderEqualWidthView())
+            NavigationLink("Animation", destination: GeometryReaderAnimationView())
         }
         .navigationBarTitle("GeometryReader Options", displayMode: .automatic)
         .navigationColor(background: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), title: .white)
