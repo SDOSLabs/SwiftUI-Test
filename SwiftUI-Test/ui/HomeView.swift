@@ -30,6 +30,7 @@ struct HomeView: View {
                     NavigationLink("HStack", destination: HStackView())
                     NavigationLink("ZStack", destination: ZStackView())
                     NavigationLink("GeometryReader", destination: GeometryReaderOptionsView())
+                    NavigationLink("List", destination: ListOptionsView())
                 }
             }
             .navigationBarTitle("Home", displayMode: .automatic)
@@ -39,7 +40,7 @@ struct HomeView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
     }
