@@ -15,6 +15,7 @@ struct ListOptionsView: View {
             NavigationLink("Navigate", destination: ListNavigationView())
             NavigationLink("Selection", destination: ListSelectionOptionsView())
             NavigationLink("Edit", destination: ListEditView())
+            Divider()
         }
         .navigationBarTitle("List Options", displayMode: .automatic)
         .navigationColor(background: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), title: .white)
