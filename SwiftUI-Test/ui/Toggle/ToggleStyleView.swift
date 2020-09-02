@@ -7,17 +7,6 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @State var value: Bool = true
-    
-    var body: some View {
-        Group {
-            Toggle("Option 3", isOn: $value)
-                .toggleStyle(BorderToggleStyle(tint: .blue))
-        }
-    }
-}
-
 struct ToggleStyleView: View {
     @State var toggle1Value: Bool = true
     @State var toggle2Value: Bool = true

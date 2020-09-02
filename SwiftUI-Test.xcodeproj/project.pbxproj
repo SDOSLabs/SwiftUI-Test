@@ -54,6 +54,10 @@
 		298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */; };
 		298024E824E3D2D10000CC6B /* TextFieldSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */; };
 		298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E924E3D2DC0000CC6B /* TextFieldStyleView.swift */; };
+		2989ACC024FD0B5E00A6F939 /* ListOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989ACBF24FD0B5E00A6F939 /* ListOptionsView.swift */; };
+		2989ACC224FD0C3D00A6F939 /* ListSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989ACC124FD0C3D00A6F939 /* ListSimpleView.swift */; };
+		2989ACC424FD1FC500A6F939 /* ListSelectionOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989ACC324FD1FC500A6F939 /* ListSelectionOptionsView.swift */; };
+		2989ACC624FD2B7E00A6F939 /* ListEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989ACC524FD2B7E00A6F939 /* ListEditView.swift */; };
 		2993F65624EAAD1C0027C41D /* ImageStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993F65524EAAD1C0027C41D /* ImageStyleView.swift */; };
 		2996FC0A24EA53E10055A72D /* ImageURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996FC0924EA53E10055A72D /* ImageURLView.swift */; };
 		2996FC0C24EA546F0055A72D /* ImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996FC0B24EA546F0055A72D /* ImageAsync.swift */; };
@@ -74,6 +78,8 @@
 		29CDE75924E40E0D00363BA2 /* CustomPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */; };
 		29CF92F424E6869400B8A3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF92F324E6869400B8A3DA /* AppDelegate.swift */; };
 		29CF92F624E69C6E00B8A3DA /* ImageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF92F524E69C6E00B8A3DA /* ImageOptionsView.swift */; };
+		29FCCD7924FE3A5900056B6F /* ListStyleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCCD7824FE3A5900056B6F /* ListStyleOptionsView.swift */; };
+		29FCCD7B24FE7F8000056B6F /* ListNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCCD7A24FE7F8000056B6F /* ListNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,6 +133,10 @@
 		298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOptionsView.swift; sourceTree = "<group>"; };
 		298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSimpleView.swift; sourceTree = "<group>"; };
 		298024E924E3D2DC0000CC6B /* TextFieldStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyleView.swift; sourceTree = "<group>"; };
+		2989ACBF24FD0B5E00A6F939 /* ListOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOptionsView.swift; sourceTree = "<group>"; };
+		2989ACC124FD0C3D00A6F939 /* ListSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSimpleView.swift; sourceTree = "<group>"; };
+		2989ACC324FD1FC500A6F939 /* ListSelectionOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectionOptionsView.swift; sourceTree = "<group>"; };
+		2989ACC524FD2B7E00A6F939 /* ListEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEditView.swift; sourceTree = "<group>"; };
 		2993F65524EAAD1C0027C41D /* ImageStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStyleView.swift; sourceTree = "<group>"; };
 		2996FC0924EA53E10055A72D /* ImageURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLView.swift; sourceTree = "<group>"; };
 		2996FC0B24EA546F0055A72D /* ImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsync.swift; sourceTree = "<group>"; };
@@ -147,6 +157,8 @@
 		29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholder.swift; sourceTree = "<group>"; };
 		29CF92F324E6869400B8A3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29CF92F524E69C6E00B8A3DA /* ImageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOptionsView.swift; sourceTree = "<group>"; };
+		29FCCD7824FE3A5900056B6F /* ListStyleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStyleOptionsView.swift; sourceTree = "<group>"; };
+		29FCCD7A24FE7F8000056B6F /* ListNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,6 +348,19 @@
 			path = TextField;
 			sourceTree = "<group>";
 		};
+		2989ACBE24FD0B1F00A6F939 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2989ACBF24FD0B5E00A6F939 /* ListOptionsView.swift */,
+				2989ACC124FD0C3D00A6F939 /* ListSimpleView.swift */,
+				2989ACC324FD1FC500A6F939 /* ListSelectionOptionsView.swift */,
+				2989ACC524FD2B7E00A6F939 /* ListEditView.swift */,
+				29FCCD7824FE3A5900056B6F /* ListStyleOptionsView.swift */,
+				29FCCD7A24FE7F8000056B6F /* ListNavigationView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		29B1758624D93C4C00FDDCDB /* ViewControllerRepresentable */ = {
 			isa = PBXGroup;
 			children = (
@@ -348,6 +373,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				2989ACBE24FD0B1F00A6F939 /* List */,
 				2903FCB124F77E16005DC211 /* GeometryReader */,
 				290DDAFF24F67652006B6491 /* ZStack */,
 				290DDAFE24F6718C006B6491 /* HStack */,
@@ -483,6 +509,7 @@
 			files = (
 				29644EFB24EFB8FA00A87E42 /* NavigationViewOptionsView.swift in Sources */,
 				296E882424ED1D5A000E41C1 /* ToggleSimpleView.swift in Sources */,
+				29FCCD7B24FE7F8000056B6F /* ListNavigationView.swift in Sources */,
 				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
 				29BDF6F524F51072004C9546 /* TabViewStyleOptionsView.swift in Sources */,
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
@@ -527,9 +554,12 @@
 				298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */,
 				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,
 				2903FCB324F7891D005DC211 /* GeometryReaderOptionsView.swift in Sources */,
+				2989ACC624FD2B7E00A6F939 /* ListEditView.swift in Sources */,
 				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
+				2989ACC424FD1FC500A6F939 /* ListSelectionOptionsView.swift in Sources */,
 				290DDAFD24F67187006B6491 /* HStackView.swift in Sources */,
 				2965806124DC177700204A46 /* ButtonSimpleView.swift in Sources */,
+				2989ACC024FD0B5E00A6F939 /* ListOptionsView.swift in Sources */,
 				29CDE75924E40E0D00363BA2 /* CustomPlaceholder.swift in Sources */,
 				29B1758B24D9591500FDDCDB /* LoginOptionsView.swift in Sources */,
 				29644EFD24EFB90F00A87E42 /* NavigationViewSimpleView.swift in Sources */,
@@ -537,7 +567,9 @@
 				2962200824F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift in Sources */,
 				29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */,
 				296E881F24ED0DAF000E41C1 /* SliderCustom.swift in Sources */,
+				2989ACC224FD0C3D00A6F939 /* ListSimpleView.swift in Sources */,
 				296D13C024F8F98500EB2E7A /* GeometryReaderAnimationView.swift in Sources */,
+				29FCCD7924FE3A5900056B6F /* ListStyleOptionsView.swift in Sources */,
 				290EA66924D82B5B00FA437D /* SwiftUI_TestApp.swift in Sources */,
 				2959906724F8E70200148FA0 /* GeometryReaderEqualWidthView.swift in Sources */,
 				2920C7F824EBFC170036C5CC /* SliderSimpleView.swift in Sources */,
