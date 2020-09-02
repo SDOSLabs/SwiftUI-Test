@@ -26,8 +26,9 @@ struct ListNavigationView: View {
         .navigationColor(background: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), title: .white)
     }
     
+    
     func navigationLinkShow(_ index: Int) -> some View {
-        NavigationLink("Show: Go to index: \(index)", destination: Text("Index: index"))
+        NavigationLink("Show: Go to index: \(index)", destination: Text("Index: \(index)"))
     }
     
     func navigationLinkEmpty(_ index: Int) -> some View {
