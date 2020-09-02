@@ -21,9 +21,13 @@ struct HomeView: View {
                     NavigationLink("Image", destination: ImageOptionsView())
                     NavigationLink("Slider", destination: SliderOptionsView())
                     NavigationLink("Toogle", destination: ToggleOptionsView())
-                    NavigationLink("NavigationView", destination: NavigationViewOptionsView())
+                    
+                    NavigationLink("Divider", destination: DividerView())
                 }
                 Group {
+                    NavigationLink("EmptyView", destination: EmptyViewView())
+                    NavigationLink("Spacer", destination: SpacerView())
+                    NavigationLink("NavigationView", destination: NavigationViewOptionsView())
                     NavigationLink("TabView", destination: TabViewOptionsView())
                     NavigationLink("ScrollView", destination: ScrollViewOptionsView())
                     NavigationLink("VStack", destination: VStackView())

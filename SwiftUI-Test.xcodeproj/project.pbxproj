@@ -78,6 +78,9 @@
 		29CDE75924E40E0D00363BA2 /* CustomPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */; };
 		29CF92F424E6869400B8A3DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF92F324E6869400B8A3DA /* AppDelegate.swift */; };
 		29CF92F624E69C6E00B8A3DA /* ImageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CF92F524E69C6E00B8A3DA /* ImageOptionsView.swift */; };
+		29ECA3A624FF8C0100EA438D /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECA3A524FF8C0100EA438D /* DividerView.swift */; };
+		29ECA3A924FF900900EA438D /* EmptyViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECA3A824FF900900EA438D /* EmptyViewView.swift */; };
+		29ECA3AC24FFA43000EA438D /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECA3AB24FFA43000EA438D /* SpacerView.swift */; };
 		29FCCD7924FE3A5900056B6F /* ListStyleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCCD7824FE3A5900056B6F /* ListStyleOptionsView.swift */; };
 		29FCCD7B24FE7F8000056B6F /* ListNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCCD7A24FE7F8000056B6F /* ListNavigationView.swift */; };
 /* End PBXBuildFile section */
@@ -157,6 +160,9 @@
 		29CDE75824E40E0D00363BA2 /* CustomPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlaceholder.swift; sourceTree = "<group>"; };
 		29CF92F324E6869400B8A3DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29CF92F524E69C6E00B8A3DA /* ImageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOptionsView.swift; sourceTree = "<group>"; };
+		29ECA3A524FF8C0100EA438D /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		29ECA3A824FF900900EA438D /* EmptyViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewView.swift; sourceTree = "<group>"; };
+		29ECA3AB24FFA43000EA438D /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		29FCCD7824FE3A5900056B6F /* ListStyleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStyleOptionsView.swift; sourceTree = "<group>"; };
 		29FCCD7A24FE7F8000056B6F /* ListNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -373,6 +379,10 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				29ECA3AD24FFAF3A00EA438D /* Picker */,
+				29ECA3AA24FFA42500EA438D /* Spacer */,
+				29ECA3A724FF8FF400EA438D /* EmptyView */,
+				29ECA3A424FF8BF200EA438D /* Divider */,
 				2989ACBE24FD0B1F00A6F939 /* List */,
 				2903FCB124F77E16005DC211 /* GeometryReader */,
 				290DDAFF24F67652006B6491 /* ZStack */,
@@ -436,6 +446,37 @@
 				2993F65524EAAD1C0027C41D /* ImageStyleView.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		29ECA3A424FF8BF200EA438D /* Divider */ = {
+			isa = PBXGroup;
+			children = (
+				29ECA3A524FF8C0100EA438D /* DividerView.swift */,
+			);
+			path = Divider;
+			sourceTree = "<group>";
+		};
+		29ECA3A724FF8FF400EA438D /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				29ECA3A824FF900900EA438D /* EmptyViewView.swift */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		29ECA3AA24FFA42500EA438D /* Spacer */ = {
+			isa = PBXGroup;
+			children = (
+				29ECA3AB24FFA43000EA438D /* SpacerView.swift */,
+			);
+			path = Spacer;
+			sourceTree = "<group>";
+		};
+		29ECA3AD24FFAF3A00EA438D /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Picker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,6 +579,7 @@
 				2906DB5524F4EF950053F435 /* TabViewOptionsView.swift in Sources */,
 				29749DB924E561AF0084DE74 /* TextFieldSimpleScrollView.swift in Sources */,
 				29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */,
+				29ECA3A924FF900900EA438D /* EmptyViewView.swift in Sources */,
 				298024E824E3D2D10000CC6B /* TextFieldSimpleView.swift in Sources */,
 				29B1758E24D9598800FDDCDB /* LoginFullScreenView.swift in Sources */,
 				29749DB724E55D950084DE74 /* TextFieldMultipleScrollHorizontalView.swift in Sources */,
@@ -553,6 +595,7 @@
 				29644EFF24EFD05E00A87E42 /* NavigationViewPushView.swift in Sources */,
 				298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */,
 				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,
+				29ECA3A624FF8C0100EA438D /* DividerView.swift in Sources */,
 				2903FCB324F7891D005DC211 /* GeometryReaderOptionsView.swift in Sources */,
 				2989ACC624FD2B7E00A6F939 /* ListEditView.swift in Sources */,
 				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
@@ -577,6 +620,7 @@
 				29B1759A24D9876700FDDCDB /* GroupEncapsulateView.swift in Sources */,
 				2903FCB724F7B1D3005DC211 /* Util.swift in Sources */,
 				29BDF6F824F52B5A004C9546 /* ScrollViewOptionsView.swift in Sources */,
+				29ECA3AC24FFA43000EA438D /* SpacerView.swift in Sources */,
 				2903FCB524F7AB92005DC211 /* GeometryReaderAlignFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
