@@ -24,6 +24,7 @@
 		2920C7F624EBFBC10036C5CC /* SliderOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F524EBFBC10036C5CC /* SliderOptionsView.swift */; };
 		2920C7F824EBFC170036C5CC /* SliderSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F724EBFC170036C5CC /* SliderSimpleView.swift */; };
 		2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F924EBFC220036C5CC /* SliderStyleView.swift */; };
+		292C5DF82500D995006E6378 /* PickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C5DF72500D995006E6378 /* PickerStyleView.swift */; };
 		2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */; };
 		2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */; };
 		2959906724F8E70200148FA0 /* GeometryReaderEqualWidthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959906624F8E70200148FA0 /* GeometryReaderEqualWidthView.swift */; };
@@ -81,6 +82,8 @@
 		29ECA3A624FF8C0100EA438D /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECA3A524FF8C0100EA438D /* DividerView.swift */; };
 		29ECA3A924FF900900EA438D /* EmptyViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECA3A824FF900900EA438D /* EmptyViewView.swift */; };
 		29ECA3AC24FFA43000EA438D /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECA3AB24FFA43000EA438D /* SpacerView.swift */; };
+		29ECA3AF24FFAFB800EA438D /* PickerOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECA3AE24FFAFB800EA438D /* PickerOptionsView.swift */; };
+		29ECA3B124FFC79100EA438D /* PickerSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ECA3B024FFC79100EA438D /* PickerSimpleView.swift */; };
 		29FCCD7924FE3A5900056B6F /* ListStyleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCCD7824FE3A5900056B6F /* ListStyleOptionsView.swift */; };
 		29FCCD7B24FE7F8000056B6F /* ListNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FCCD7A24FE7F8000056B6F /* ListNavigationView.swift */; };
 /* End PBXBuildFile section */
@@ -105,6 +108,7 @@
 		2920C7F524EBFBC10036C5CC /* SliderOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderOptionsView.swift; sourceTree = "<group>"; };
 		2920C7F724EBFC170036C5CC /* SliderSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSimpleView.swift; sourceTree = "<group>"; };
 		2920C7F924EBFC220036C5CC /* SliderStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStyleView.swift; sourceTree = "<group>"; };
+		292C5DF72500D995006E6378 /* PickerStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyleView.swift; sourceTree = "<group>"; };
 		2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
 		2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButtonStyle.swift; sourceTree = "<group>"; };
 		2959906524F8E52900148FA0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 		29ECA3A524FF8C0100EA438D /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 		29ECA3A824FF900900EA438D /* EmptyViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewView.swift; sourceTree = "<group>"; };
 		29ECA3AB24FFA43000EA438D /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		29ECA3AE24FFAFB800EA438D /* PickerOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerOptionsView.swift; sourceTree = "<group>"; };
+		29ECA3B024FFC79100EA438D /* PickerSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSimpleView.swift; sourceTree = "<group>"; };
 		29FCCD7824FE3A5900056B6F /* ListStyleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStyleOptionsView.swift; sourceTree = "<group>"; };
 		29FCCD7A24FE7F8000056B6F /* ListNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -475,6 +481,9 @@
 		29ECA3AD24FFAF3A00EA438D /* Picker */ = {
 			isa = PBXGroup;
 			children = (
+				29ECA3AE24FFAFB800EA438D /* PickerOptionsView.swift */,
+				29ECA3B024FFC79100EA438D /* PickerSimpleView.swift */,
+				292C5DF72500D995006E6378 /* PickerStyleView.swift */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -556,6 +565,7 @@
 				29B1759224D959A500FDDCDB /* LoginComponentView.swift in Sources */,
 				290DDB0124F6765E006B6491 /* ZStackView.swift in Sources */,
 				29749DB524E5553F0084DE74 /* TextFieldMultipleScrollVerticalView.swift in Sources */,
+				29ECA3B124FFC79100EA438D /* PickerSimpleView.swift in Sources */,
 				290DDAFB24F66761006B6491 /* VStackView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
 				2993F65624EAAD1C0027C41D /* ImageStyleView.swift in Sources */,
@@ -567,10 +577,12 @@
 				2920C7F624EBFBC10036C5CC /* SliderOptionsView.swift in Sources */,
 				29BDF6F324F50A18004C9546 /* TabViewSimpleSelectionView.swift in Sources */,
 				29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */,
+				292C5DF82500D995006E6378 /* PickerStyleView.swift in Sources */,
 				298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */,
 				2996FC0C24EA546F0055A72D /* ImageAsync.swift in Sources */,
 				29B1759E24D9896C00FDDCDB /* GroupApplyStyleView.swift in Sources */,
 				29BDF6FC24F52B8E004C9546 /* ScrollViewScrollToView.swift in Sources */,
+				29ECA3AF24FFAFB800EA438D /* PickerOptionsView.swift in Sources */,
 				2906DB5724F4EFCB0053F435 /* TabViewSimpleView.swift in Sources */,
 				298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */,
 				2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */,

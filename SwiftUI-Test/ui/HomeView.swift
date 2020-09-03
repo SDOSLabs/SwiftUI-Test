@@ -36,6 +36,9 @@ struct HomeView: View {
                     NavigationLink("GeometryReader", destination: GeometryReaderOptionsView())
                     NavigationLink("List", destination: ListOptionsView())
                 }
+                Group {
+                    NavigationLink("Picker", destination: PickerOptionsView())
+                }
             }
             .navigationBarTitle("Home", displayMode: .automatic)
             .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
