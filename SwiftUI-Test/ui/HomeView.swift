@@ -38,6 +38,7 @@ struct HomeView: View {
                 }
                 Group {
                     NavigationLink("Picker", destination: PickerOptionsView())
+                    NavigationLink("DatePicker", destination: DatePickerOptionsView())
                 }
             }
             .navigationBarTitle("Home", displayMode: .automatic)

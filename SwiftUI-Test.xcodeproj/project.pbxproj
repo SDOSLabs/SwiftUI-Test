@@ -25,6 +25,9 @@
 		2920C7F824EBFC170036C5CC /* SliderSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F724EBFC170036C5CC /* SliderSimpleView.swift */; };
 		2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920C7F924EBFC220036C5CC /* SliderStyleView.swift */; };
 		292C5DF82500D995006E6378 /* PickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C5DF72500D995006E6378 /* PickerStyleView.swift */; };
+		292C5DFB2500E7EE006E6378 /* DatePickerOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C5DFA2500E7EE006E6378 /* DatePickerOptionsView.swift */; };
+		292C5DFD2500F3BB006E6378 /* DatePickerSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C5DFC2500F3BB006E6378 /* DatePickerSimpleView.swift */; };
+		292C5DFF2500F3C4006E6378 /* DatePickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C5DFE2500F3C4006E6378 /* DatePickerStyleView.swift */; };
 		2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */; };
 		2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */; };
 		2959906724F8E70200148FA0 /* GeometryReaderEqualWidthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959906624F8E70200148FA0 /* GeometryReaderEqualWidthView.swift */; };
@@ -109,6 +112,9 @@
 		2920C7F724EBFC170036C5CC /* SliderSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSimpleView.swift; sourceTree = "<group>"; };
 		2920C7F924EBFC220036C5CC /* SliderStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStyleView.swift; sourceTree = "<group>"; };
 		292C5DF72500D995006E6378 /* PickerStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStyleView.swift; sourceTree = "<group>"; };
+		292C5DFA2500E7EE006E6378 /* DatePickerOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerOptionsView.swift; sourceTree = "<group>"; };
+		292C5DFC2500F3BB006E6378 /* DatePickerSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerSimpleView.swift; sourceTree = "<group>"; };
+		292C5DFE2500F3C4006E6378 /* DatePickerStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerStyleView.swift; sourceTree = "<group>"; };
 		2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
 		2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButtonStyle.swift; sourceTree = "<group>"; };
 		2959906524F8E52900148FA0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
@@ -280,6 +286,16 @@
 			path = Slider;
 			sourceTree = "<group>";
 		};
+		292C5DF92500E38D006E6378 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				292C5DFA2500E7EE006E6378 /* DatePickerOptionsView.swift */,
+				292C5DFC2500F3BB006E6378 /* DatePickerSimpleView.swift */,
+				292C5DFE2500F3C4006E6378 /* DatePickerStyleView.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
 		2941C82C24E2BB0B0072DA8C /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,6 +401,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				292C5DF92500E38D006E6378 /* DatePicker */,
 				29ECA3AD24FFAF3A00EA438D /* Picker */,
 				29ECA3AA24FFA42500EA438D /* Spacer */,
 				29ECA3A724FF8FF400EA438D /* EmptyView */,
@@ -569,6 +586,7 @@
 				290DDAFB24F66761006B6491 /* VStackView.swift in Sources */,
 				290EA66B24D82B5B00FA437D /* HomeView.swift in Sources */,
 				2993F65624EAAD1C0027C41D /* ImageStyleView.swift in Sources */,
+				292C5DFF2500F3C4006E6378 /* DatePickerStyleView.swift in Sources */,
 				2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */,
 				296E882224ED1D48000E41C1 /* ToggleOptionsView.swift in Sources */,
 				29B1759824D97FCE00FDDCDB /* GroupOptionsView.swift in Sources */,
@@ -588,6 +606,7 @@
 				2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */,
 				2962200624F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift in Sources */,
 				2965805F24DC171D00204A46 /* ButtonOptionsView.swift in Sources */,
+				292C5DFD2500F3BB006E6378 /* DatePickerSimpleView.swift in Sources */,
 				2906DB5524F4EF950053F435 /* TabViewOptionsView.swift in Sources */,
 				29749DB924E561AF0084DE74 /* TextFieldSimpleScrollView.swift in Sources */,
 				29B1759C24D9877700FDDCDB /* GroupSkipLimitView.swift in Sources */,
@@ -609,6 +628,7 @@
 				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,
 				29ECA3A624FF8C0100EA438D /* DividerView.swift in Sources */,
 				2903FCB324F7891D005DC211 /* GeometryReaderOptionsView.swift in Sources */,
+				292C5DFB2500E7EE006E6378 /* DatePickerOptionsView.swift in Sources */,
 				2989ACC624FD2B7E00A6F939 /* ListEditView.swift in Sources */,
 				29B1759024D9599600FDDCDB /* LoginEmbedView.swift in Sources */,
 				2989ACC424FD1FC500A6F939 /* ListSelectionOptionsView.swift in Sources */,
