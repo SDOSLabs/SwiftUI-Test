@@ -21,7 +21,6 @@ struct HomeView: View {
                     NavigationLink("Image", destination: ImageOptionsView())
                     NavigationLink("Slider", destination: SliderOptionsView())
                     NavigationLink("Toogle", destination: ToggleOptionsView())
-                    
                     NavigationLink("Divider", destination: DividerView())
                 }
                 Group {
@@ -39,9 +38,12 @@ struct HomeView: View {
                 Group {
                     NavigationLink("Picker", destination: PickerOptionsView())
                     NavigationLink("DatePicker", destination: DatePickerOptionsView())
+                    NavigationLink("ColorPicker", destination: ColorPickerView())
+                    NavigationLink("Shape", destination: ShapeOptionsView())
+                    NavigationLink("Form", destination: FormView())
                 }
             }
-            .navigationBarTitle("Home", displayMode: .automatic)
+            .navigationBarTitle("Home", displayMode: .inline)
             .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
         }
         
