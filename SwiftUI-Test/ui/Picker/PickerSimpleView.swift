@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PickerSimpleView: View {
-    let items = ["Sevilla", "Cádiz", "Huelva", "Córdoba", "Málaga", "Granada", "Jaén", "Álmería" ]
+    let items = ["Sevilla", "Cádiz", "Huelva", "Córdoba", "Málaga", "Granada", "Jaén", "Álmería"]
     let flavors = Flavor.allCases
     @State private var selection1: String = "Sevilla"
     @State private var selection2: String = "Huelva"
