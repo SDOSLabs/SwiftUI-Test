@@ -29,6 +29,7 @@
 		292C5DFB2500E7EE006E6378 /* DatePickerOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C5DFA2500E7EE006E6378 /* DatePickerOptionsView.swift */; };
 		292C5DFD2500F3BB006E6378 /* DatePickerSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C5DFC2500F3BB006E6378 /* DatePickerSimpleView.swift */; };
 		292C5DFF2500F3C4006E6378 /* DatePickerStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C5DFE2500F3C4006E6378 /* DatePickerStyleView.swift */; };
+		293DDDC125075F780007D31B /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DDDC025075F780007D31B /* AlertView.swift */; };
 		293DE086250214230000B888 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DE085250214230000B888 /* ColorPickerView.swift */; };
 		293DE08825022D380000B888 /* ShapeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DE08725022D380000B888 /* ShapeOptionsView.swift */; };
 		293DE08B25022DF10000B888 /* ShapeCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DE08A25022DF10000B888 /* ShapeCapsuleView.swift */; };
@@ -124,6 +125,7 @@
 		292C5DFA2500E7EE006E6378 /* DatePickerOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerOptionsView.swift; sourceTree = "<group>"; };
 		292C5DFC2500F3BB006E6378 /* DatePickerSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerSimpleView.swift; sourceTree = "<group>"; };
 		292C5DFE2500F3C4006E6378 /* DatePickerStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerStyleView.swift; sourceTree = "<group>"; };
+		293DDDC025075F780007D31B /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		293DE085250214230000B888 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		293DE08725022D380000B888 /* ShapeOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeOptionsView.swift; sourceTree = "<group>"; };
 		293DE08A25022DF10000B888 /* ShapeCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCapsuleView.swift; sourceTree = "<group>"; };
@@ -320,6 +322,14 @@
 			path = DatePicker;
 			sourceTree = "<group>";
 		};
+		293DDDBF25075F6A0007D31B /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				293DDDC025075F780007D31B /* AlertView.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		293DE0842502140A0000B888 /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -446,6 +456,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				293DDDBF25075F6A0007D31B /* Alert */,
 				290F107525065C86001B4D5A /* Form */,
 				293DE08925022D410000B888 /* Shape */,
 				293DE0842502140A0000B888 /* ColorPicker */,
@@ -647,6 +658,7 @@
 				2920C7F624EBFBC10036C5CC /* SliderOptionsView.swift in Sources */,
 				29BDF6F324F50A18004C9546 /* TabViewSimpleSelectionView.swift in Sources */,
 				29749DB324E51A520084DE74 /* KeyboardManager.swift in Sources */,
+				293DDDC125075F780007D31B /* AlertView.swift in Sources */,
 				292C5DF82500D995006E6378 /* PickerStyleView.swift in Sources */,
 				298024E324E3D2890000CC6B /* ViewStyleView.swift in Sources */,
 				2996FC0C24EA546F0055A72D /* ImageAsync.swift in Sources */,

@@ -8,6 +8,48 @@
 import SwiftUI
 
 struct HomeView: View {
+//    private let screens : [String: AnyView] = {
+//        ["Login": AnyView(LoginOptionsView()),
+//        "View": AnyView(ViewStyleView()),
+//        "Group": AnyView(GroupOptionsView()),
+//        "Text": AnyView(TextOptionsView()),
+//        "Button": AnyView(ButtonOptionsView()),
+//        "TextField": AnyView(TextFieldOptionsView()),
+//        "Image": AnyView(ImageOptionsView()),
+//        "Slider": AnyView(SliderOptionsView()),
+//        "Toogle": AnyView(ToggleOptionsView()),
+//        "Divider": AnyView(DividerView()),
+//        "EmptyView": AnyView(EmptyViewView()),
+//        "Spacer": AnyView(SpacerView()),
+//        "NavigationView": AnyView(NavigationViewOptionsView()),
+//        "TabView": AnyView(TabViewOptionsView()),
+//        "ScrollView": AnyView(ScrollViewOptionsView()),
+//        "VStack": AnyView(VStackView()),
+//        "HStack": AnyView(HStackView()),
+//        "GeometryReader": AnyView(GeometryReaderOptionsView()),
+//        "List": AnyView(ListOptionsView()),
+//        "Picker": AnyView(PickerOptionsView()),
+//        "DatePicker": AnyView(DatePickerOptionsView()),
+//        "ColorPicker": AnyView(ColorPickerView()),
+//        "Shape": AnyView(ShapeOptionsView()),
+//        "Form": AnyView(FormView())]
+//    }()
+//    
+//    var body: some View {
+//        NavigationView {
+//            List {
+//                ForEach(screens.map { $0.0 }, id: \.self) {
+//                    if let view = screens[$0]  {
+//                        NavigationLink($0, destination: view)
+//                    }
+//                }
+//            }
+//            .navigationBarTitle("Home", displayMode: .inline)
+//            .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
+//        }
+//        
+//    }
+    
     var body: some View {
         NavigationView {
             List {
@@ -41,6 +83,7 @@ struct HomeView: View {
                     NavigationLink("ColorPicker", destination: ColorPickerView())
                     NavigationLink("Shape", destination: ShapeOptionsView())
                     NavigationLink("Form", destination: FormView())
+                    NavigationLink("Alert", destination: AlertView())
                 }
             }
             .navigationBarTitle("Home", displayMode: .inline)
