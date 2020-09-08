@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HStackView: View {
-    let items = ["Sevilla", "Cádiz", "Huelva", "Córdoba", "Málaga", "Granada", "Jaén", "Álmería" ]
+    let items = ["Sevilla", "Cádiz", "Huelva", "Córdoba", "Málaga", "Granada", "Jaén", "Álmería"]
     
     var body: some View {
         ScrollView(.horizontal) {
