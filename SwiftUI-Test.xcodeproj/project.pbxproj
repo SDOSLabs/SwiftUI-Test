@@ -35,6 +35,7 @@
 		293DE08B25022DF10000B888 /* ShapeCapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293DE08A25022DF10000B888 /* ShapeCapsuleView.swift */; };
 		2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */; };
 		2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */; };
+		294689652507797300602FF6 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294689642507797300602FF6 /* ActionSheetView.swift */; };
 		2959906724F8E70200148FA0 /* GeometryReaderEqualWidthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959906624F8E70200148FA0 /* GeometryReaderEqualWidthView.swift */; };
 		2962200624F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962200524F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift */; };
 		2962200824F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962200724F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift */; };
@@ -131,6 +132,7 @@
 		293DE08A25022DF10000B888 /* ShapeCapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCapsuleView.swift; sourceTree = "<group>"; };
 		2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
 		2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButtonStyle.swift; sourceTree = "<group>"; };
+		294689642507797300602FF6 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		2959906524F8E52900148FA0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		2959906624F8E70200148FA0 /* GeometryReaderEqualWidthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderEqualWidthView.swift; sourceTree = "<group>"; };
 		2962200524F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyleOptionsView.swift; sourceTree = "<group>"; };
@@ -367,6 +369,14 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		294689632507795300602FF6 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				294689642507797300602FF6 /* ActionSheetView.swift */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
 		29644EF924EFB8E200A87E42 /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
@@ -456,6 +466,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				294689632507795300602FF6 /* ActionSheet */,
 				293DDDBF25075F6A0007D31B /* Alert */,
 				290F107525065C86001B4D5A /* Form */,
 				293DE08925022D410000B888 /* Shape */,
@@ -637,6 +648,7 @@
 				296E882424ED1D5A000E41C1 /* ToggleSimpleView.swift in Sources */,
 				29FCCD7B24FE7F8000056B6F /* ListNavigationView.swift in Sources */,
 				293DE08825022D380000B888 /* ShapeOptionsView.swift in Sources */,
+				294689652507797300602FF6 /* ActionSheetView.swift in Sources */,
 				29B2B65F250627BE000EA34A /* ShapeRectangleView.swift in Sources */,
 				2965806324DC1A6200204A46 /* ButtonStyleView.swift in Sources */,
 				29B2B661250627D0000EA34A /* ShapeRoundedRectangleView.swift in Sources */,

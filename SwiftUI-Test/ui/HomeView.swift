@@ -84,6 +84,7 @@ struct HomeView: View {
                     NavigationLink("Shape", destination: ShapeOptionsView())
                     NavigationLink("Form", destination: FormView())
                     NavigationLink("Alert", destination: AlertView())
+                    NavigationLink("ActionSheet", destination: ActionSheetView())
                 }
             }
             .navigationBarTitle("Home", displayMode: .inline)
