@@ -86,6 +86,7 @@ struct HomeView: View {
                     NavigationLink("Alert", destination: AlertView())
                     NavigationLink("ActionSheet", destination: ActionSheetView())
                     NavigationLink("Popover", destination: PopoverView())
+                    NavigationLink("Present", destination: PresentOptionsView())
                 }
             }
             .navigationBarTitle("Home", displayMode: .inline)
