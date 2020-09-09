@@ -36,6 +36,7 @@
 		2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */; };
 		2941C83024E2C3E60072DA8C /* SelectableButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */; };
 		294689652507797300602FF6 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294689642507797300602FF6 /* ActionSheetView.swift */; };
+		29468968250787C500602FF6 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29468967250787C500602FF6 /* PopoverView.swift */; };
 		2959906724F8E70200148FA0 /* GeometryReaderEqualWidthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959906624F8E70200148FA0 /* GeometryReaderEqualWidthView.swift */; };
 		2962200624F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962200524F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift */; };
 		2962200824F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962200724F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift */; };
@@ -133,6 +134,7 @@
 		2941C82D24E2BB230072DA8C /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
 		2941C82F24E2C3E60072DA8C /* SelectableButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableButtonStyle.swift; sourceTree = "<group>"; };
 		294689642507797300602FF6 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		29468967250787C500602FF6 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
 		2959906524F8E52900148FA0 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		2959906624F8E70200148FA0 /* GeometryReaderEqualWidthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderEqualWidthView.swift; sourceTree = "<group>"; };
 		2962200524F3BDFA0017E4EF /* NavigationViewStyleOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewStyleOptionsView.swift; sourceTree = "<group>"; };
@@ -377,6 +379,14 @@
 			path = ActionSheet;
 			sourceTree = "<group>";
 		};
+		29468966250787B200602FF6 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				29468967250787C500602FF6 /* PopoverView.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
 		29644EF924EFB8E200A87E42 /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,6 +476,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				29468966250787B200602FF6 /* Popover */,
 				294689632507795300602FF6 /* ActionSheet */,
 				293DDDBF25075F6A0007D31B /* Alert */,
 				290F107525065C86001B4D5A /* Form */,
@@ -721,6 +732,7 @@
 				2965805624DBE3A200204A46 /* TextOptionsView.swift in Sources */,
 				2962200824F3D3D80017E4EF /* NavigationViewCustomNavigationBarView.swift in Sources */,
 				29B1758824D93C5E00FDDCDB /* NavigationConfigurator.swift in Sources */,
+				29468968250787C500602FF6 /* PopoverView.swift in Sources */,
 				296E881F24ED0DAF000E41C1 /* SliderCustom.swift in Sources */,
 				2989ACC224FD0C3D00A6F939 /* ListSimpleView.swift in Sources */,
 				296D13C024F8F98500EB2E7A /* GeometryReaderAnimationView.swift in Sources */,
