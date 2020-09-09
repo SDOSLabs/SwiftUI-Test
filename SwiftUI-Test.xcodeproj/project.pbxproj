@@ -65,6 +65,9 @@
 		298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */; };
 		298024E824E3D2D10000CC6B /* TextFieldSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */; };
 		298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298024E924E3D2DC0000CC6B /* TextFieldStyleView.swift */; };
+		298628A02508CCAF009C4A50 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986289F2508CCAF009C4A50 /* SheetView.swift */; };
+		298628A22508D182009C4A50 /* PresentOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298628A12508D182009C4A50 /* PresentOptionsView.swift */; };
+		298628A42508D1C0009C4A50 /* FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298628A32508D1C0009C4A50 /* FullView.swift */; };
 		2989ACC024FD0B5E00A6F939 /* ListOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989ACBF24FD0B5E00A6F939 /* ListOptionsView.swift */; };
 		2989ACC224FD0C3D00A6F939 /* ListSimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989ACC124FD0C3D00A6F939 /* ListSimpleView.swift */; };
 		2989ACC424FD1FC500A6F939 /* ListSelectionOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989ACC324FD1FC500A6F939 /* ListSelectionOptionsView.swift */; };
@@ -164,6 +167,9 @@
 		298024E524E3D2BB0000CC6B /* TextFieldOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldOptionsView.swift; sourceTree = "<group>"; };
 		298024E724E3D2D10000CC6B /* TextFieldSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSimpleView.swift; sourceTree = "<group>"; };
 		298024E924E3D2DC0000CC6B /* TextFieldStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyleView.swift; sourceTree = "<group>"; };
+		2986289F2508CCAF009C4A50 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		298628A12508D182009C4A50 /* PresentOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentOptionsView.swift; sourceTree = "<group>"; };
+		298628A32508D1C0009C4A50 /* FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullView.swift; sourceTree = "<group>"; };
 		2989ACBF24FD0B5E00A6F939 /* ListOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOptionsView.swift; sourceTree = "<group>"; };
 		2989ACC124FD0C3D00A6F939 /* ListSimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSimpleView.swift; sourceTree = "<group>"; };
 		2989ACC324FD1FC500A6F939 /* ListSelectionOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectionOptionsView.swift; sourceTree = "<group>"; };
@@ -451,6 +457,16 @@
 			path = TextField;
 			sourceTree = "<group>";
 		};
+		2986289E2508CC9C009C4A50 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				298628A12508D182009C4A50 /* PresentOptionsView.swift */,
+				2986289F2508CCAF009C4A50 /* SheetView.swift */,
+				298628A32508D1C0009C4A50 /* FullView.swift */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
 		2989ACBE24FD0B1F00A6F939 /* List */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,6 +492,7 @@
 		29B1758924D9579600FDDCDB /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				2986289E2508CC9C009C4A50 /* Sheet */,
 				29468966250787B200602FF6 /* Popover */,
 				294689632507795300602FF6 /* ActionSheet */,
 				293DDDBF25075F6A0007D31B /* Alert */,
@@ -689,6 +706,7 @@
 				29BDF6FC24F52B8E004C9546 /* ScrollViewScrollToView.swift in Sources */,
 				29ECA3AF24FFAFB800EA438D /* PickerOptionsView.swift in Sources */,
 				2906DB5724F4EFCB0053F435 /* TabViewSimpleView.swift in Sources */,
+				298628A02508CCAF009C4A50 /* SheetView.swift in Sources */,
 				290F107725065C9C001B4D5A /* FormView.swift in Sources */,
 				298024EA24E3D2DC0000CC6B /* TextFieldStyleView.swift in Sources */,
 				2920C7FA24EBFC220036C5CC /* SliderStyleView.swift in Sources */,
@@ -705,6 +723,7 @@
 				2965805C24DC01EC00204A46 /* TextHtml.swift in Sources */,
 				293DE086250214230000B888 /* ColorPickerView.swift in Sources */,
 				29644F0124EFD8D200A87E42 /* NavigationViewPushManualView.swift in Sources */,
+				298628A22508D182009C4A50 /* PresentOptionsView.swift in Sources */,
 				290BDF7124EE8DB00049B8E4 /* CheckToggleStyle.swift in Sources */,
 				29CF92F424E6869400B8A3DA /* AppDelegate.swift in Sources */,
 				29CF92F624E69C6E00B8A3DA /* ImageOptionsView.swift in Sources */,
@@ -716,6 +735,7 @@
 				298024E624E3D2BB0000CC6B /* TextFieldOptionsView.swift in Sources */,
 				2941C82E24E2BB230072DA8C /* HeaderSectionView.swift in Sources */,
 				29ECA3A624FF8C0100EA438D /* DividerView.swift in Sources */,
+				298628A42508D1C0009C4A50 /* FullView.swift in Sources */,
 				2903FCB324F7891D005DC211 /* GeometryReaderOptionsView.swift in Sources */,
 				292C5DFB2500E7EE006E6378 /* DatePickerOptionsView.swift in Sources */,
 				293DE08B25022DF10000B888 /* ShapeCapsuleView.swift in Sources */,
