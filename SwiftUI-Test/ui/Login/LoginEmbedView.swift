@@ -13,8 +13,8 @@ struct LoginEmbedView: View {
             VStack {
                 Image("sdos_office")
                     .resizable()
-                    .frame(height: 200)
                     .scaledToFit()
+                    .frame(height: 200)
                 Text("La firma tecnológica sevillana SDOS instalará su nueva factoría de software en El Puerto")
                     .font(.title2)
                     .padding([.leading, .trailing], 10)
@@ -26,16 +26,21 @@ struct LoginEmbedView: View {
                     .padding([.all], 10)
                 LoginComponentView()
                     .padding([.leading, .trailing, .top], 10)
-                    .background(Color.init(Constant.Color.blue))
+                    .background(Color.init(UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1)))
                 Spacer()
                 
             }
-        }.background(Color.gray.opacity(0.1))
+        }
+        .background(Color.gray.opacity(0.1))
+        .navigationBarTitle("", displayMode: .inline)
     }
 }
 
 struct LoginEmbedView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginEmbedView()
+        NavigationView {
+            LoginEmbedView()
+                .background(NavigationConfigurator(backgroundColor: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), titleColor: .white))
+        }
     }
 }
