@@ -23,7 +23,7 @@ struct SheetView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.yellow.opacity(0.3))
-        .navigationBarTitle("Full Screen", displayMode: .inline)
+        .navigationBarTitle("Sheet", displayMode: .inline)
         .navigationColor(background: UIColor(red: 31/255, green: 155/255, blue: 222/255, alpha: 1), title: .white)
     }
 }

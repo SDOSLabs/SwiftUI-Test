@@ -36,19 +36,24 @@ struct NavigationViewPushManualFirstView: View {
                     Button("Go to third view") {
                         navigateToThird = true
                     }
-                    NavigationLink(
-                        destination: NavigationViewPushManualSecondView(navigateToSecond: $navigateToSecond),
-                        isActive: $navigateToSecond,
-                        label: {
-                            EmptyView()
-                        })
-                    NavigationLink(
-                        destination: NavigationViewPushManualThirdView(navigateToThird: $navigateToThird),
-                        isActive: $navigateToThird,
-                        label: {
-                            EmptyView()
-                        })
                 }
+                .background(
+                    Group {
+                        NavigationLink(
+                            destination: NavigationViewPushManualSecondView(navigateToSecond: $navigateToSecond),
+                            isActive: $navigateToSecond,
+                            label: {
+                                EmptyView()
+                            })
+                        NavigationLink(
+                            destination: NavigationViewPushManualThirdView(navigateToThird: $navigateToThird),
+                            isActive: $navigateToThird,
+                            label: {
+                                EmptyView()
+                            })
+                    }
+                    .hidden()
+                )
                 .navigationBarTitle("First", displayMode: .inline)
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                 .background(Color.yellow.opacity(0.3))
@@ -67,16 +72,19 @@ struct NavigationViewPushManualSecondView: View {
             Button("Go to third view") {
                 navigateToThird = true
             }
+            Button("Back") {
+                navigateToSecond.wrappedValue = false
+            }
+        }
+        .background(
             NavigationLink(
                 destination: NavigationViewPushManualThirdView(navigateToSecond: navigateToSecond, navigateToThird: $navigateToThird),
                 isActive: $navigateToThird,
                 label: {
                     EmptyView()
                 })
-            Button("Back") {
-                navigateToSecond.wrappedValue = false
-            }
-        }
+                .hidden()
+        )
         .navigationBarTitle("Second", displayMode: .inline)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
         .background(Color.green.opacity(0.3))
